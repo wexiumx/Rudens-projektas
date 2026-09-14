@@ -4,8 +4,91 @@
 
 
 
+/* font declaration */
+
+@font-face {
+    font-family: "Livvic-Black";
+    src: url(../assets/fonts/Livvic-Black.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-BlackItalic";
+    src: url(../assets/fonts/Livvic-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-Bold";
+    src: url(../assets/fonts/Livvic-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-BoldItalic";
+    src: url(../assets/fonts/Livvic-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-ExtraLight";
+    src: url(../assets/fonts/Livvic-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-ExtraLightItalic";
+    src: url(../assets/fonts/Livvic-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-Italic";
+    src: url(../assets/fonts/Livvic-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-Light";
+    src: url(../assets/fonts/Livvic-Light.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-LightItalic";
+    src: url(../assets/fonts/Livvic-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-Medium";
+    src: url(../assets/fonts/Livvic-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-MediumItalic";
+    src: url(../assets/fonts/Livvic-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-Regular";
+    src: url(../assets/fonts/Livvic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-SemiBold";
+    src: url(../assets/fonts/Livvic-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-SemiBoldItalic";
+    src: url(../assets/fonts/Livvic-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-Thin";
+    src: url(../assets/fonts/Livvic-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Livvic-ThinItalic";
+    src: url(../assets/fonts/Livvic-ThinItalic.ttf);
+}
+
 
 /* rules */
+
 
 
 
