@@ -31,7 +31,7 @@ This is a website project from school to learn how to work in teams, work with J
       ├── css
       │   ├── about.css
       │   ├── contact.css
-      │   ├── index.css
+      │   ├── style.css
       │   └── main.css # global css (where all css color variables, fonts etc.)
       ├── index.html
       ├── js
