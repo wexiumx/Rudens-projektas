@@ -102,7 +102,9 @@
 
 /* rules */
 
-
+body {
+    margin: 0;
+}
 
 
 
@@ -110,6 +112,11 @@
 
 /* navigation bar */
 
+header {
+    width: 100%;
+    background-color: var(--midnight-green);
+    margin: 0;
+}
 
 
 
