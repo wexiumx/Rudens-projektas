@@ -113,7 +113,7 @@ body {
 /* navigation bar */
 
 header {
-    height: 44.5rem;
+    height: 12.0rem;
     width: 100%;
     background-color: var(--midnight-green);
     display: flex;
