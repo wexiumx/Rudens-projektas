@@ -163,6 +163,20 @@ header a {
     font-family: "Livvic-SemiBold";
 }
 
+header nav a:hover {
+    color: #F67E7E;
+}
+
+header button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+header button:hover a {
+    color: black;
+}
+
+
 .header-navigation-bar img {
     width: 10rem;
     height: 2.5rem;
