@@ -116,10 +116,58 @@ header {
     width: 100%;
     background-color: var(--midnight-green);
     margin: 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.813rem 10.313rem;
+    box-sizing: border-box;
+}
+
+.header-btn-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.563rem;
+    height: 3rem;
+    border-radius: 24px;
+    color: white;
+    font-family: "Livvic-Black";
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+header aside:first-child {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;                      
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Livvic-Black";
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;                      
+    padding-left: 5rem;
+}
+
+header button {
+    width: 9.563rem;
+    height: 3rem;
+    border-radius: 24px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
 }
 
 
-
+p { margin: 0; }
+h1 { margin: 0; }
 
 
 
