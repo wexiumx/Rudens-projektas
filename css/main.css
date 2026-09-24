@@ -113,47 +113,80 @@ body {
 /* navigation bar */
 
 header {
+    height: 44.5rem;
     width: 100%;
     background-color: var(--midnight-green);
-    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-navigation-bar {
+    width: 69.375rem;
+    height: 3rem;
+    background-color: var(--midnight-green);
+    margin: 4.5625rem ;
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    padding: 4.813rem 10.313rem;
     box-sizing: border-box;
 }
 
-.header-btn-contact {
+header button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 9.563rem;
     height: 3rem;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     color: white;
-    font-family: "Livvic-Black";
     text-decoration: none;
     border: 2px solid white;
     background-color: transparent;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+    font-family: "Livvic-SemiBold";
 }
 
 header aside:first-child {
     display: flex;
-    flex-direction: row;
-    gap: 0.5rem;                      
 }
 
 header a {
     text-decoration: none;
     color: white;
-    font-family: "Livvic-Black";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+    font-family: "Livvic-SemiBold";
+}
+
+header nav a:hover {
+    color: #F67E7E;
+}
+
+header button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+header button:hover a {
+    color: black;
+}
+
+
+.header-navigation-bar img {
+    width: 10rem;
+    height: 2.5rem;
 }
 
 header nav {
     display: flex;
     align-items: center;
-    gap: 1.5rem;                      
-    padding-left: 5rem;
+    gap: 2.5rem;                      
+    margin-left: 5rem;
 }
 
 header button {
