@@ -2,9 +2,71 @@
    DESKTOP
 ========================= */
 
-body {
-    margin: 0;
+/* ========================= 
+   TALENT SECTION
+========================= */
+
+.talent-section {
+    background-color: var(--midnight-green);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 31.8rem;
+    width: 100%;
 }
+
+.talent-section span {
+    color: var(--light-coral);
+}
+
+.talent-section h1 {
+    font-family: "Livvic-Bold";
+    color: #FFF;
+    font-size: 6.395rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.25rem; 
+}
+
+.talent-section p {
+    font-family: "Livvic-Bold";
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+
+.talent-section aside:first-child {
+    width: 39.6875rem;
+}
+
+.talent-section aside:last-child {
+    display: flex;
+    width: 27.8125rem;
+    height: 12.1875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4.9375rem;
+}
+
+.talent-section .box {
+    display: flex;
+    justify-content: space-between;
+    margin: 3.5rem 4.5625rem;
+    box-sizing: border-box;
+    width: 69.375rem;
+ 
+}
+
+.talent-section .blue-line {
+    width: 3.125rem;
+    background-color: var(--rapture-blue);
+    height: 0.25rem;
+    flex-shrink: 0;
+}
+
 
 /* =========================
    MID SECTION

@@ -124,7 +124,7 @@ header {
     width: 69.375rem;
     height: 3rem;
     background-color: var(--midnight-green);
-    margin: 4.5625rem ;
+    margin: 4.5625rem;
     display: flex; 
     justify-content: space-between;
     align-items: center;
