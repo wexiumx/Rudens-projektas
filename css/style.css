@@ -6,82 +6,52 @@ body {
     margin: 0;
 }
 
-
 /* =========================
    MID SECTION
 ========================= */
 
 .mid-section {
     position: relative;
-
     width: 100%;
     height: 42.75rem;
-
     background-color: var(--sacramento-state-green);
-
     margin: 0 auto;
-
     padding: 8.75rem 10.3125rem 0;
-
     box-sizing: border-box;
-
     display: grid;
-
     grid-template-columns: 27.8125rem 1fr;
     column-gap: 7.5rem;
-
     overflow: hidden;
 }
 
-
-/* =========================
-   DECORATION
-========================= */
-
 .mid-decoration {
     position: absolute;
-
     width: 12.5rem;
     height: 15.25rem;
-
     right: -6.25rem;
     bottom: 0;
-
     display: block;
 }
 
-
-/* =========================
-   HEADING
-========================= */
-
 .mid-heading {
     position: relative;
-
     padding-top: 3.78rem;
 }
 
 .mid-heading::before {
     content: "";
-
     position: absolute;
-
     top: 0;
     left: 0;
-
     width: 3.125rem;
     height: 0.25rem;
-
     background-color: var(--light-coral);
 }
 
 .mid-heading h2 {
     width: 27.8125rem;
-
     margin: 0;
-
     color: var(--white);
-
     font-family: "Livvic-Bold", sans-serif;
     font-size: 3rem;
     font-style: normal;
@@ -89,22 +59,12 @@ body {
     line-height: 3rem;
 }
 
-
-/* =========================
-   FEATURES
-========================= */
-
 .features {
     display: flex;
     flex-direction: column;
 
     padding-top: 4.05rem;
 }
-
-
-/* =========================
-   FEATURE
-========================= */
 
 .feature {
     display: grid;
@@ -114,11 +74,6 @@ body {
 
     align-items: start;
 }
-
-
-/* =========================
-   INDIVIDUAL FEATURES
-========================= */
 
 .feature-1 {
     transform: translate(0, -0.36rem);
@@ -132,17 +87,10 @@ body {
     margin-top: 2.61rem;
 }
 
-
-/* =========================
-   ICON
-========================= */
-
 .feature-icon {
     width: 4.5rem;
     height: 4.5rem;
-
     transform: translate(0.45rem, 0);
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,17 +98,10 @@ body {
 
 .feature-icon img {
     display: block;
-
     width: 4.5rem;
     height: 4.5rem;
-
     object-fit: contain;
 }
-
-
-/* =========================
-   FEATURE CONTENT
-========================= */
 
 .feature-content {
     padding-top: 0;
@@ -168,9 +109,7 @@ body {
 
 .feature-content h3 {
     margin: 0 0 0.39rem;
-
     color: var(--light-coral);
-
     font-family: "Livvic-Bold", sans-serif;
     font-size: 1.125rem;
     font-style: normal;
@@ -180,15 +119,10 @@ body {
 
 .feature-content p {
     max-width: 27.45rem;
-
     transform: translate(0, 0.6rem);
-
     margin: 0;
-
     color: var(--white);
-
     opacity: 0.8;
-
     font-family: "Livvic-Medium", sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
@@ -332,6 +266,68 @@ body {
 .stories-decoration-2 {
     position: absolute;
     right: 0;
+    bottom: 0;
+    width: 12.5rem;
+    height: auto;
+    display: block;
+    z-index: 0;
+}
+
+/* =========================
+   READY FOOTER
+========================= */
+
+.ready-footer {
+    position: relative;
+    width: 100%;
+    height: 12.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--light-coral);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.ready-footer h2 {
+    width: 57.3125rem;
+    margin: 0 auto;
+    color: var(--sacramento-state-green);
+    font-family: "Livvic-Bold";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.ready-footer button {
+    position: absolute;
+    top: 50%;
+    right: calc((100% - 57.3125rem) / 2);
+    transform: translateY(-50%);
+    width: 9.5rem;
+    height: 3rem;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0.125rem solid var(--sacramento-state-green);
+    border-radius: 1.5rem;
+    background-color: transparent;
+    color: var(--sacramento-state-green);
+    font-family: "Livvic-Bold";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.ready-decoration {
+    position: absolute;
+    left: 0;
     bottom: 0;
     width: 12.5rem;
     height: auto;
