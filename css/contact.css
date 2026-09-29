@@ -26,7 +26,7 @@ body {
 	width: min(770px, 60%);
 	margin-top: -16px;
 	z-index: 1;
-	transform: scale(1.44);
+	transform: scale(1.45);
 }
 
 .contact-information h1 {
