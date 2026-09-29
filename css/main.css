@@ -207,14 +207,107 @@ h1 { margin: 0; }
 
 
 
+/* Tablet */
+
+@media screen and (max-width: 1352px) and (min-width: 768px) {
+    header {
+        height: 12.0rem;
+        width: 100%;
+        background-color: var(--midnight-green);
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-navigation-bar {
+        width: 43.0625rem; 
+        height: 3rem;
+        background-color: var(--midnight-green);
+        margin: 4rem 2.44rem;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    header button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 9.563rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        background-color: transparent;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.75rem;
+        font-family: "Livvic-SemiBold";
+    }
+
+    header aside:first-child {
+        display: flex;
+    }
+
+    header a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.75rem;
+        font-family: "Livvic-SemiBold";
+    }
+
+    header nav a:hover {
+        color: var(--light-coral);
+        transition: color 0.2s ease-in-out;
+    }
+
+    header button:hover {
+        background-color: white;
+        cursor: pointer;
+        transition: color 0.2s ease-in-out;
+    }
+
+    header button:hover a {
+        color: black;
+        transition: color 0.2s ease-in-out;
+    }
+
+
+    .header-navigation-bar img {
+        width: 8rem;
+        height: 2rem;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;                      
+        margin-left: 3rem;
+    }
+
+    header button {
+        width: 9.563rem;
+        height: 3rem;
+        border-radius: 24px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+    }
+
+
+    p { margin: 0; }
+    h1 { margin: 0; }
+}
+
+
+
 
 /* footer */
-
-
-
-/* =====================================================
-   SITE FOOTER
-===================================================== */
 
 .site-footer {
     width: 100%;
