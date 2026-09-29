@@ -317,3 +317,145 @@ header,
 
 
 /* Phone section */
+
+
+@media screen and (max-width: 767px) {
+	header {
+		height: 6rem;
+	}
+
+	.header-navigation-bar {
+		width: calc(100% - 2rem);
+		height: 2rem;
+		margin: 2.25rem auto 0;
+	}
+
+	.header-navigation-bar img {
+		width: 8rem;
+		height: 2rem;
+	}
+
+	header nav,
+	header aside:last-child {
+		display: none;
+	}
+
+	.header-navigation-bar::after {
+		width: 1.25rem;
+		height: 1rem;
+		background: repeating-linear-gradient(
+			to bottom,
+			var(--white) 0 0.125rem,
+			transparent 0.125rem 0.4375rem
+		);
+		content: "";
+	}
+
+	.contact-section {
+		height: auto;
+		min-height: 0;
+		padding: 2rem 1.5rem 5.5rem;
+	}
+
+	.contact-content {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 3.5rem;
+		width: 100%;
+		margin-top: 0;
+		transform: none;
+	}
+
+	.contact-information {
+		text-align: center;
+	}
+
+	.contact-information h1 {
+		margin-bottom: 0.5rem;
+		font-size: 2.5rem;
+	}
+
+	.contact-information h2 {
+		margin-bottom: 2.5rem;
+		font-size: 2rem;
+	}
+
+	.contact-features {
+		gap: 0.75rem;
+		text-align: left;
+	}
+
+	.contact-features li {
+		grid-template-columns: 3rem minmax(0, 1fr);
+		gap: 1rem;
+		min-height: 3rem;
+	}
+
+	.contact-features p {
+		font-size: 0.9375rem;
+	}
+
+	.contact-form {
+		gap: 0.8125rem;
+	}
+
+	.contact-decoration-left {
+		display: none;
+	}
+
+	.contact-decoration-right {
+		right: -6.25rem;
+		bottom: -7.25rem;
+		width: 12.5625rem;
+		height: auto;
+	}
+
+	.site-footer {
+		height: auto;
+		padding: 3rem 1.5rem;
+	}
+
+	.footer-content,
+	.footer-left {
+		flex-direction: column;
+	}
+
+	.footer-content {
+		gap: 2.5rem;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer-left {
+		gap: 1.5rem;
+		align-items: center;
+	}
+
+	.footer-logo {
+		width: 7.5rem;
+		margin: 0 auto 1.5rem;
+	}
+
+	.footer-nav {
+		justify-content: center;
+		gap: 1.5rem;
+	}
+
+	.footer-nav a {
+		font-size: 0.9375rem;
+	}
+
+	.footer-address-box {
+		font-size: 0.9375rem;
+	}
+
+	.footer-right {
+		gap: 1rem;
+		align-items: center;
+		padding: 0;
+	}
+
+	.footer-copyright {
+		font-size: 0.8125rem;
+		text-align: center;
+	}
+}
