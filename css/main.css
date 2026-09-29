@@ -164,16 +164,19 @@ header a {
 }
 
 header nav a:hover {
-    color: #F67E7E;
+    color: var(--light-coral);
+    transition: color 0.2s ease-in-out;
 }
 
 header button:hover {
     background-color: white;
     cursor: pointer;
+    transition: color 0.2s ease-in-out;
 }
 
 header button:hover a {
     color: black;
+    transition: color 0.2s ease-in-out;
 }
 
 
