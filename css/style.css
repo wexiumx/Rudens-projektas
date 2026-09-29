@@ -113,7 +113,7 @@
     height: 42.75rem;
     background-color: var(--sacramento-state-green);
     margin: 0 auto;
-    padding: 8.75rem 10.3125rem 0;
+    padding: 8.75rem 10.3125rem 0 45.25rem;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 27.8125rem 1fr;
@@ -133,6 +133,7 @@
 .mid-heading {
     position: relative;
     padding-top: 3.78rem;
+    transform: translateX(0.5rem);
 }
 
 .mid-heading::before {
@@ -435,6 +436,7 @@
 .ready-button:hover{
     background-color: var(--sacramento-state-green);
     color: var(--white);
+    transition: color 0.2s ease-in-out;
 }
 
 /* =====================================================
