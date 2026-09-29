@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact us</title>
+    <title>Contact | myteam</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
 </head>
@@ -23,45 +23,62 @@
             </aside> 
         </section>
 
-        <section class="header-talent">
-
-        </section>
     </header>
     <main>
-        <section>
-            <aside>
-                <h1></h1>
-                <h2></h2>
+        <section class="contact-section" aria-labelledby="contact-title">
+            <img class="contact-decoration-left" src="../assets/icons/bg-pattern-about-2-contact-1.svg" alt="">
+            <img class="contact-decoration-right" src="../assets/icons/bg-pattern-contact-2.svg" alt="">
 
-                <h3></h3>
+            <div class="contact-content">
+                <div class="contact-information">
+                    <h1 id="contact-title">Contact</h1>
+                    <h2>Ask us about</h2>
 
-                <h3></h3>
+                    <ul class="contact-features">
+                        <li>
+                            <img src="../assets/icons/icon-person.svg" alt="">
+                            <p>The quality of our talent network</p>
+                        </li>
+                        <li>
+                            <img src="../assets/icons/icon-cog.svg" alt="">
+                            <p>Usage &amp; implementation of our software</p>
+                        </li>
+                        <li>
+                            <img src="../assets/icons/icon-chart.svg" alt="">
+                            <p>How we help drive innovation</p>
+                        </li>
+                    </ul>
+                </div>
 
-                <h3></h3>
-            </aside>
+                <form class="contact-form">
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" autocomplete="name" required>
+                    </div>
 
-            <aside>
-                <form>
-                    <fieldset>
-                        <label for="name"></label>
-                        <input id="name" name="name" type="text">
+                    <div class="form-field">
+                        <label for="email">Email Address</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required>
+                    </div>
 
-                        <label for="email"></label>
-                        <input id="email" name="email" type="email">
+                    <div class="form-field">
+                        <label for="company-name">Company Name</label>
+                        <input id="company-name" name="company-name" type="text" autocomplete="organization" required>
+                    </div>
 
-                        <label for="company-name"></label>
-                        <input id="company-name" name="company-name" type="text">
+                    <div class="form-field">
+                        <label for="title">Title</label>
+                        <input id="title" name="title" type="text" autocomplete="organization-title" required>
+                    </div>
 
-                        <label for="title"></label>
-                        <input id="title" name="title" type="text">
+                    <div class="form-field form-field-message">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="2" required></textarea>
+                    </div>
 
-                        <label for="message"></label>
-                        <textarea id="message" name="message"></textarea>
-
-                        <button type="submit"></button>
-                    </fieldset>
+                    <button type="submit">submit</button>
                 </form>
-            </aside>
+                    </div>
         </section>
     </main>
 
