@@ -303,7 +303,7 @@ body {
     z-index: 1;
 }
 
-.ready-footer button {
+.ready-button {
     position: absolute;
     top: 50%;
     right: calc((100% - 57.3125rem) / 2);
@@ -335,10 +335,16 @@ body {
     z-index: 0;
 }
 
+.ready-button:hover{
+    background-color: var(--sacramento-state-green);
+    color: var(--white);
+}
 
 /* =====================================================
    TABLET
 ===================================================== */
+
+
 
 /* =====================================================
    PHONE
