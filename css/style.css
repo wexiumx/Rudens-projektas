@@ -435,6 +435,7 @@
 .ready-button:hover{
     background-color: var(--sacramento-state-green);
     color: var(--white);
+    transition: color 0.2s ease-in-out;
 }
 
 /* =====================================================
