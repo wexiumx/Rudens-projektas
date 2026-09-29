@@ -10,23 +10,23 @@ body {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: min(650px, 100vh);
-	min-height: 500px;
-	max-height: 650px;
+	height: 920px;
+	min-height: 750px;
+	max-height: none;
 	box-sizing: border-box;
 	overflow: hidden;
-	background-color: var(--deep-jungle-green);
+	background-color: var(--midnight-green);
 }
 
 .contact-content {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 	align-items: start;
-	column-gap: clamp(32px, 7vw, 100px);
-	width: min(925px, 75%);
+	column-gap: clamp(32px, 5vw, 80px);
+	width: min(770px, 60%);
 	margin-top: -16px;
 	z-index: 1;
-	transform: scale(1.2);
+	transform: scale(1.44);
 }
 
 .contact-information h1 {
@@ -55,16 +55,16 @@ body {
 
 .contact-features li {
 	display: grid;
-	grid-template-columns: 40px minmax(0, 1fr);
+	grid-template-columns: 48px minmax(0, 1fr);
 	align-items: center;
 	gap: 8px;
-	min-height: 40px;
+	min-height: 48px;
 }
 
 .contact-features img {
 	display: block;
-	width: 40px;
-	height: 40px;
+	width: 48px;
+	height: 48px;
 	object-fit: contain;
 }
 
@@ -107,7 +107,11 @@ body {
 	background: transparent;
 	color: var(--white);
 	font: 14px "Livvic-Regular", sans-serif;
-	resize: vertical;
+	resize: none;
+}
+
+.form-field textarea {
+	line-height: 1.2;
 }
 
 .form-field:focus-within {
@@ -123,7 +127,12 @@ body {
 }
 
 .form-field-message {
-	min-height: 58px;
+	min-height: 42px;
+}
+
+.form-field-message textarea {
+	height: 26px;
+	min-height: 0;
 }
 
 .contact-form button {
@@ -155,8 +164,8 @@ body {
 }
 
 .contact-decoration-left {
-	top: 40px;
-	left: -150px;
+	top: 0px;
+	left: -100px;	
 	width: 200px;
 	height: 200px;
 }
