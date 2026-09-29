@@ -1,42 +1,65 @@
 /* PC section */
 /*About section*/
-.about-section{
-    padding: 110px;
-    display: block;
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about-section {
+    position: relative;
     background-color: var(--midnight-green);
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
-    height: 23rem;
-    
+
+    min-height: 28rem;
+    padding-top: 7.5rem;
+
+    overflow: hidden;
 }
-.about-text{
-     font-family: "Livvic-SemiBold", sans-serif;
-   margin-left:28% ;
-   display: flex;
-   gap: 160px;
-    height:4.75rem ;
+
+.about-text {
     width: 69.375rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 125px;
 }
-.about-circle{
-    
-    position: absolute;
-    left: 95%;
-    top: 39.5%;
-    height: 20%;
-}
-.about-text-about{
- font-family: "Livvic-SemiBold", sans-serif;
+
+.about-text-about {
+    font-family: "Livvic-SemiBold", sans-serif;
     font-size: 64px;
+    line-height: 100%;
 }
-.about-text-paragraph{
-    font-size: 18px;
-    margin-top: 40px;
+
+.about-paragraph-container {
+    display: flex;
+    flex-direction: column;
 }
-.about-stick{
-    background-color: var(--light-coral);
-    height: 4px;
+
+.about-stick {
     width: 50px;
-    
+    height: 4px;
+    background-color: var(--light-coral);
+    margin-bottom: 40px;
+}
+
+.about-text-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.about-circle {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    width: 200px;
+    height: auto;
 }
 /* Directors and clients sections */
 .directors-section,
