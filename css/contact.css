@@ -191,6 +191,129 @@ header,
 
 /* Tablet section */
 
+@media screen and (max-width: 1352px) and (min-width: 768px) {
+	.contact-section {
+		margin-top: -1px;
+		height: auto;
+		min-height: 0;
+		padding: 7rem 2.5rem 8rem;
+	}
+
+	.contact-content {
+		grid-template-columns: minmax(0, 1fr);
+		row-gap: 4rem;
+		width: min(33.875rem, 100%);
+		margin-top: 0;
+		transform: none;
+	}
+
+	.contact-information {
+		text-align: center;
+	}
+
+	.contact-information h1 {
+		font-size: 4rem;
+	}
+
+	.contact-information h2 {
+		font-size: 2rem;
+	}
+
+	.contact-features {
+		gap: 0.7rem;
+		text-align: left;
+	}
+
+	.contact-features li {
+		grid-template-columns: 4.2rem minmax(0, 1fr);
+		gap: 0.7rem;
+		min-height: 4.2rem;
+	}
+
+	.contact-features img {
+		width: 4.2rem;
+		height: 4.2rem;
+	}
+
+	.contact-features p {
+		font-size: 1.3125rem;
+	}
+
+	.contact-form {
+		gap: 1.44rem;
+	}
+
+	.form-field {
+		min-height: 3.6rem;
+	}
+
+	.form-field label {
+		font-size: 1.08rem;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		font-size: 1.26rem;
+	}
+
+	.form-field-message {
+		min-height: 3.78rem;
+	}
+
+	.form-field-message textarea {
+		height: 2.34rem;
+	}
+
+	.contact-form button {
+		min-width: 9rem;
+		margin-top: 0.09rem;
+		padding: 0.72rem 1.8rem;
+		border-radius: 2.16rem;
+		font-size: 1.08rem;
+	}
+
+	.site-footer {
+		height: 14rem;
+	}
+
+	.footer-content {
+		position: relative;
+		width: 100%;
+		padding: 2rem 2.5rem;
+		box-sizing: border-box;
+	}
+
+	.footer-left {
+		width: 100%;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 0;
+	}
+
+	.footer-logo {
+		width: 8rem;
+	}
+
+	.footer-nav {
+		gap: 1.5rem;
+	}
+
+	.footer-right {
+		position: absolute;
+		right: 2.5rem;
+		bottom: 2rem;
+		left: 2.5rem;
+		height: auto;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0;
+	}
+
+	.footer-copyright {
+		text-align: right;
+	}
+}
 
 
 /* Phone section */
