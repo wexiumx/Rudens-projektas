@@ -1,4 +1,42 @@
 /* PC section */
+/*About section*/
+.about-section{
+    display: block;
+    background-color: var(--midnight-green);
+    color: white;
+    font-family: "Livvic-SemiBold", sans-serif;
+    height: 30rem;
+    
+}
+.about-text{
+     font-family: "Livvic-SemiBold", sans-serif;
+   margin-left:43.875rem ;
+   display: flex;
+   gap: 160px;
+    height:9.75rem ;
+    width: 69.375rem;
+}
+.about-circle{
+    
+    position: absolute;
+    left: 95%;
+    top: 31%;
+    height: 20%;
+}
+.about-text-about{
+ font-family: "Livvic-SemiBold", sans-serif;
+    font-size: 64px;
+}
+.about-text-paragraph{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.about-stick{
+    background-color: var(--light-coral);
+    height: 4px;
+    width: 50px;
+    
+}
 /* Directors and clients sections */
 .directors-section,
 .clients-section {
@@ -15,11 +53,11 @@
     padding: 140px 24px 168px;
 }
 
-.directors-decoration-top,
-.clients-decoration {
+.directors-decoration-top
+ {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -4%;
 }
 
 .directors-decoration-bottom {
