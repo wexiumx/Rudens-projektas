@@ -1,26 +1,27 @@
 /* PC section */
 /*About section*/
 .about-section{
+    padding: 110px;
     display: block;
     background-color: var(--midnight-green);
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
-    height: 30rem;
+    height: 23rem;
     
 }
 .about-text{
      font-family: "Livvic-SemiBold", sans-serif;
-   margin-left:43.875rem ;
+   margin-left:28% ;
    display: flex;
    gap: 160px;
-    height:9.75rem ;
+    height:4.75rem ;
     width: 69.375rem;
 }
 .about-circle{
     
     position: absolute;
     left: 95%;
-    top: 31%;
+    top: 39.5%;
     height: 20%;
 }
 .about-text-about{
