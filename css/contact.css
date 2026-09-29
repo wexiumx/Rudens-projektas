@@ -114,6 +114,14 @@ body {
 	border-bottom-color: var(--white);
 }
 
+.form-field:has(:user-invalid) {
+	border-bottom-color: var(--light-coral);
+}
+
+.form-field:has(:user-invalid) label {
+	color: var(--light-coral);
+}
+
 .form-field-message {
 	min-height: 58px;
 }
