@@ -113,13 +113,15 @@
     height: 42.75rem;
     background-color: var(--sacramento-state-green);
     margin: 0 auto;
-    padding: 8.75rem 10.3125rem 0 45.25rem;
+    padding: 8.75rem 2rem 0;              
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 27.8125rem 1fr;
+    grid-template-columns: 27.8125rem 33.7rem; 
     column-gap: 7.5rem;
+    justify-content: center;               
     overflow: hidden;
 }
+
 
 .mid-decoration {
     position: absolute;
