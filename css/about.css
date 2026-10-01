@@ -13,18 +13,16 @@ h1 {
     background-color: var(--midnight-green);
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
-
     min-height: 20.3rem;
-   
-
     overflow: hidden;
+    justify-content: center;
+    display: flex;
 }
 
 .about-text {
     width: 69.375rem;
    
     margin-top: 1.85rem;
-    margin-left: 10.2rem;
     height: 10rem;
     display: grid;
     grid-template-columns: 350px 1fr;
@@ -241,12 +239,36 @@ h1 {
 
 .client-logo {
     display: block;
-    max-width: 18%;
-    max-height: 45px;
     width: auto;
     height: auto;
     object-fit: contain;
 }
+
+.client-logo1 {
+    max-width: 15%;
+    max-height: 2.813rem;
+    margin: -0.063rem;
+}
+
+.client-logo2 {
+width: 11.5rem;
+height: 1.4375rem;
+margin-top: -0.688rem;
+}
+.client-logo3 {
+width: 11.25rem;
+height: 1.75rem;
+margin-right: -0.063rem;
+}
+.client-logo4 {
+width: 10.3125rem;
+height: 1.75rem;
+}
+.client-logo5 {
+    max-width: 15%;
+    max-height: 2.813rem;
+}
+
 .ready-footer {
     position: relative;
     width: 100%;
