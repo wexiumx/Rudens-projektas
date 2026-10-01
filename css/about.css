@@ -288,3 +288,81 @@
 
 
 /* Phone section */
+
+@media screen and (max-width: 767px) {
+    header {
+        height: 6rem;
+    }
+
+    .header-navigation-bar {
+        width: calc(100% - 2rem);
+        height: 2rem;
+        margin: 2.25rem auto 0;
+    }
+
+    .header-navigation-bar img {
+        width: 8rem;
+        height: 2rem;
+    }
+
+    header nav,
+    header aside:last-child {
+        display: none;
+    }
+
+    .header-navigation-bar::after {
+        width: 1.25rem;
+        height: 1rem;
+        background: repeating-linear-gradient(
+            to bottom,
+            var(--white) 0 0.125rem,
+            transparent 0.125rem 0.4375rem
+        );
+        content: "";
+    }
+
+    .about-section {
+        position: relative;
+        height: auto;
+        min-height: 0;
+        padding: 1.5rem 1.5rem 1.25rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .about-text {
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .about-text-about {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .about-stick {
+        display: none;
+    }
+
+    .about-text-paragraph {
+        margin-top: 0.5rem;
+        font-size: 0.9375rem;
+        line-height: 1.75rem;
+    }
+
+    .about-circle {
+        z-index: 0;
+        top: auto;
+        right: -6.25rem;
+        bottom: -8.375rem;
+        left: auto;
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+}
