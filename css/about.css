@@ -365,4 +365,36 @@
         width: 12.5rem;
         height: 12.5rem;
     }
+
+    .clients-section {
+        min-height: 0;
+        padding: 6rem 1.5rem;
+    }
+
+    .clients-section::before {
+        position: absolute;
+        top: -6.875rem;
+        left: -6.875rem;
+        width: 13.75rem;
+        aspect-ratio: 1;
+        background: url("../assets/icons/bg-pattern-about-4.svg") center / contain no-repeat;
+        content: "";
+        pointer-events: none;
+    }
+
+    .clients-section > h2 {
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .client-logos {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    .client-logo {
+        max-width: 10rem;
+        max-height: 3rem;
+    }
 }
