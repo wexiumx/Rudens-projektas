@@ -407,6 +407,8 @@
         height: 0.75rem;
     }
 }
+
+@media screen and (max-width: 767px) {
     header {
         height: 6rem;
     }
@@ -425,17 +427,6 @@
     header nav,
     header aside:last-child {
         display: none;
-    }
-
-    .header-navigation-bar::after {
-        width: 1.25rem;
-        height: 1rem;
-        background: repeating-linear-gradient(
-            to bottom,
-            var(--white) 0 0.125rem,
-            transparent 0.125rem 0.4375rem
-        );
-        content: "";
     }
 
     .about-section {
@@ -514,5 +505,4 @@
         max-width: 10rem;
         max-height: 3rem;
     }
-}
 }

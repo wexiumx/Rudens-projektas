@@ -6,6 +6,8 @@
     <title>about us</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <script src="../js/navigation.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,11 +15,22 @@
             <aside>
                 <img src="../assets/icons/logo.svg" alt="logo">
                 <nav><a href="../index.html">home</a><a href="about.html">about</a></nav>
+                <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation">
+                    <span></span><span></span><span></span>
+                </button>
             </aside>
             <aside><button><a href="contact.html">contact us</a></button></aside>
         </section>
         <section class="header-talent"></section>
     </header>
+    <div class="mobile-navigation-backdrop" hidden></div>
+    <nav class="mobile-navigation" id="mobile-navigation" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <button class="mobile-navigation-close" type="button" aria-label="Close navigation menu"></button>
+        <a href="../index.html">home</a>
+        <a href="about.html">about</a>
+        <a class="mobile-navigation-contact" href="contact.html">contact us</a>
+        <img src="../assets/icons/bg-pattern-about-1-mobile-nav-1.svg" alt="">
+    </nav>
     <main>
         <section class="about-section">
             <div class="about-text">
