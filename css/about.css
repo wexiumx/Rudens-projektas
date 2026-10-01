@@ -1,42 +1,73 @@
 /* PC section */
 /*About section*/
-.about-section{
-    padding: 110px;
-    display: block;
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about-section {
+    position: relative;
     background-color: var(--midnight-green);
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
-    height: 23rem;
-    
+    min-height: 20.3rem;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
 }
-.about-text{
-     font-family: "Livvic-SemiBold", sans-serif;
-   margin-left:28% ;
-   display: flex;
-   gap: 160px;
-    height:4.75rem ;
+
+.about-text {
     width: 69.375rem;
-}
-.about-circle{
+   
+    margin-top: 1.85rem;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 30px;
     
-    position: absolute;
-    left: 95%;
-    top: 39.5%;
-    height: 20%;
 }
-.about-text-about{
- font-family: "Livvic-SemiBold", sans-serif;
-    font-size: 64px;
+
+.about-text-about {
+    font-family: "Livvic-Bold", sans-serif;
+    font-size: 4rem;
+    line-height: 8.75rem;
+    margin-left: 3px;
 }
-.about-text-paragraph{
-    font-size: 18px;
-    margin-top: 40px;
+
+.about-paragraph-container {
+    display: flex;
+    flex-direction: column;
+      
 }
-.about-stick{
-    background-color: var(--light-coral);
-    height: 4px;
+
+.about-stick {
     width: 50px;
-    
+    margin-left: 2px;
+    height: 4px;
+    background-color: var(--light-coral);
+    margin-top: 19px;
+    margin-bottom: 40px;
+}
+
+.about-text-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 2px;
+    letter-spacing: 0.01px;
+   
+}
+
+.about-circle {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    width: 200px;
+    height: auto;
 }
 /* Directors and clients sections */
 .directors-section,
@@ -208,12 +239,36 @@
 
 .client-logo {
     display: block;
-    max-width: 18%;
-    max-height: 45px;
     width: auto;
     height: auto;
     object-fit: contain;
 }
+
+.client-logo1 {
+    max-width: 15%;
+    max-height: 2.813rem;
+    margin: -0.063rem;
+}
+
+.client-logo2 {
+width: 11.5rem;
+height: 1.4375rem;
+margin-top: -0.688rem;
+}
+.client-logo3 {
+width: 11.25rem;
+height: 1.75rem;
+margin-right: -0.063rem;
+}
+.client-logo4 {
+width: 10.3125rem;
+height: 1.75rem;
+}
+.client-logo5 {
+    max-width: 15%;
+    max-height: 2.813rem;
+}
+
 .ready-footer {
     position: relative;
     width: 100%;
@@ -288,3 +343,230 @@
 
 
 /* Phone section */
+
+@media screen and (max-width: 767px) {
+    .directors-section {
+        padding: 5.75rem 6% 4rem;
+    }
+
+    .directors-decoration-top {
+        left: -7rem;
+        top: -6.3rem;
+    }
+
+    .directors-section > h2 {
+        margin-bottom: 2.75rem;
+        font-size: 1.75rem;
+        line-height: 2.125rem;
+    }
+
+    .directors-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 3.25rem;
+        max-width: 100%;
+    }
+
+    .director-card {
+        height: auto;
+        aspect-ratio: 1.29 / 1;
+    }
+
+    .director-profile,
+    .director-card > article {
+        padding: 9% 0.75rem;
+    }
+
+    .director-avatar {
+        width: 33%;
+        max-width: 8.5rem;
+        height: auto;
+        aspect-ratio: 1;
+        margin-bottom: 6.5%;
+    }
+
+    .directors-section h3 {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .directors-section p {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+    }
+
+    .director-details p {
+        max-width: 11rem;
+        margin-top: 0.5rem;
+    }
+
+    .director-details div {
+        gap: 0.75rem;
+        margin-top: 1rem;
+    }
+
+    .director-social-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .director-card > button {
+        bottom: -1.75rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .director-toggle-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .directors-section {
+        padding-top: 3rem;
+    }
+
+    .directors-section > h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .directors-grid {
+        gap: 1.875rem;
+    }
+
+    .directors-section h3 {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
+
+    .directors-section p {
+        font-size: 0.625rem;
+        line-height: 0.9375rem;
+    }
+
+    .director-social-icon {
+        width: 0.875rem;
+        height: 0.875rem;
+    }
+
+    .director-card > button {
+        bottom: -1.25rem;
+        width: 2.125rem;
+        height: 2.125rem;
+    }
+
+    .director-toggle-icon {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+
+    header {
+        height: 6rem;
+    }
+
+    .header-navigation-bar {
+        width: calc(100% - 2rem);
+        height: 2rem;
+        margin: 2.25rem auto 0;
+    }
+
+    .header-navigation-bar img {
+        width: 8rem;
+        height: 2rem;
+    }
+
+    header nav,
+    header aside:last-child {
+        display: none;
+    }
+
+    .header-navigation-bar::after {
+        width: 1.25rem;
+        height: 1rem;
+        background: repeating-linear-gradient(
+            to bottom,
+            var(--white) 0 0.125rem,
+            transparent 0.125rem 0.4375rem
+        );
+        content: "";
+    }
+
+    .about-section {
+        position: relative;
+        height: auto;
+        min-height: 0;
+        padding: 1.5rem 1.5rem 1.25rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .about-text {
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .about-text-about {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .about-stick {
+        display: none;
+    }
+
+    .about-text-paragraph {
+        margin-top: 0.5rem;
+        font-size: 0.9375rem;
+        line-height: 1.75rem;
+    }
+
+    .about-circle {
+        z-index: 0;
+        top: auto;
+        right: -6.25rem;
+        bottom: -8.375rem;
+        left: auto;
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+
+    .clients-section {
+        min-height: 0;
+        padding: 6rem 1.5rem;
+    }
+
+    .clients-section::before {
+        position: absolute;
+        top: -6.875rem;
+        left: -6.875rem;
+        width: 13.75rem;
+        aspect-ratio: 1;
+        background: url("../assets/icons/bg-pattern-about-4.svg") center / contain no-repeat;
+        content: "";
+        pointer-events: none;
+    }
+
+    .clients-section > h2 {
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .client-logos {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    .client-logo {
+        max-width: 10rem;
+        max-height: 3rem;
+    }
+}
