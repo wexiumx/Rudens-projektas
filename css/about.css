@@ -14,7 +14,7 @@ h1 {
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
 
-    min-height: 32.313rem;
+    min-height: 20.3rem;
    
 
     overflow: hidden;
@@ -33,11 +33,10 @@ h1 {
 }
 
 .about-text-about {
-    font-family: "Livvic-SemiBold", sans-serif;
-    font-size: 64px;
-    line-height: 100%;
-    
-    
+    font-family: "Livvic-Bold", sans-serif;
+    font-size: 4rem;
+    line-height: 8.75rem;
+    margin-left: 3px;
 }
 
 .about-paragraph-container {
@@ -48,15 +47,19 @@ h1 {
 
 .about-stick {
     width: 50px;
+    margin-left: 2px;
     height: 4px;
     background-color: var(--light-coral);
-    margin-bottom: 60px;
+    margin-top: 19px;
+    margin-bottom: 40px;
 }
 
 .about-text-paragraph {
     font-size: 18px;
     line-height: 28px;
     margin: 0;
+    margin-left: 2px;
+    letter-spacing: 0.01px;
    
 }
 
