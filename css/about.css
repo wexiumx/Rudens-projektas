@@ -288,3 +288,122 @@
 
 
 /* Phone section */
+
+@media screen and (max-width: 767px) {
+    .directors-section {
+        padding: 5.75rem 6% 4rem;
+    }
+
+    .directors-decoration-top {
+        left: -7rem;
+        top: -6.3rem;
+    }
+
+    .directors-section > h2 {
+        margin-bottom: 2.75rem;
+        font-size: 1.75rem;
+        line-height: 2.125rem;
+    }
+
+    .directors-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 3.25rem;
+        max-width: 100%;
+    }
+
+    .director-card {
+        height: auto;
+        aspect-ratio: 1.29 / 1;
+    }
+
+    .director-profile,
+    .director-card > article {
+        padding: 9% 0.75rem;
+    }
+
+    .director-avatar {
+        width: 33%;
+        max-width: 8.5rem;
+        height: auto;
+        aspect-ratio: 1;
+        margin-bottom: 6.5%;
+    }
+
+    .directors-section h3 {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+
+    .directors-section p {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+    }
+
+    .director-details p {
+        max-width: 11rem;
+        margin-top: 0.5rem;
+    }
+
+    .director-details div {
+        gap: 0.75rem;
+        margin-top: 1rem;
+    }
+
+    .director-social-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .director-card > button {
+        bottom: -1.75rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .director-toggle-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .directors-section {
+        padding-top: 3rem;
+    }
+
+    .directors-section > h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .directors-grid {
+        gap: 1.875rem;
+    }
+
+    .directors-section h3 {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
+
+    .directors-section p {
+        font-size: 0.625rem;
+        line-height: 0.9375rem;
+    }
+
+    .director-social-icon {
+        width: 0.875rem;
+        height: 0.875rem;
+    }
+
+    .director-card > button {
+        bottom: -1.25rem;
+        width: 2.125rem;
+        height: 2.125rem;
+    }
+
+    .director-toggle-icon {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+}
