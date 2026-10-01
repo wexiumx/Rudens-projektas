@@ -16,6 +16,9 @@
                     <a href="../index.html">home</a>
                     <a href="about.html">about</a>
                 </nav>
+                <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation">
+                    <span></span><span></span><span></span>
+                </button>
             </aside> 
 
             <aside>
@@ -24,6 +27,14 @@
         </section>
 
     </header>
+    <div class="mobile-navigation-backdrop" hidden></div>
+    <nav class="mobile-navigation" id="mobile-navigation" aria-label="Mobile navigation" aria-hidden="true" inert>
+        <button class="mobile-navigation-close" type="button" aria-label="Close navigation menu"></button>
+        <a href="../index.html">home</a>
+        <a href="about.html">about</a>
+        <a class="mobile-navigation-contact" href="contact.html">contact us</a>
+        <img src="../assets/icons/bg-pattern-about-1-mobile-nav-1.svg" alt="">
+    </nav>
     <main>
         <section class="contact-section" aria-labelledby="contact-title">
             <img class="contact-decoration-left" src="../assets/icons/bg-pattern-about-2-contact-1.svg" alt="">
@@ -131,6 +142,6 @@
     </div>
 
 </footer>
-
+<script src="../js/contact.js" defer></script>
 </body>
 </html>
