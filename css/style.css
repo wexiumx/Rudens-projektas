@@ -623,7 +623,7 @@
     }
 
     .companies-text {
-        transform: translateX(-0.325rem);
+        margin-right: 0.5rem;
     }
 
     .stories-header {
