@@ -138,8 +138,10 @@
     left: 0;
     width: 3.125rem;
     height: 0.25rem;
+    margin-left: -0.688rem;
     background-color: var(--light-coral);
 }
+
 
 .mid-heading h2 {
     width: 27.8125rem;
@@ -150,6 +152,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 3rem;
+    margin-left: -0.688rem;
 }
 
 .features {
