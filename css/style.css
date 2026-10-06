@@ -1,11 +1,4 @@
-/* =========================
-   DESKTOP
-========================= */
-
-/* ========================= 
-   TALENT SECTION
-========================= */
-
+@media screen and (max-width: 99999999px) {
 
 .talent-section {
   display: grid;
@@ -444,15 +437,38 @@
     transition: color 0.2s ease-in-out;
 }
 
-/* =====================================================
-   TABLET
-===================================================== */
+}
 
-@media screen and (max-width: 1352px) and (min-width: 768px) {
 
-    /* =========================
-       MID SECTION
-    ========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1352px) {
 
     .mid-section {
         position: relative;
@@ -606,16 +622,8 @@
     }
 }
 
-/* =====================================================
-   MOBILE
-===================================================== */
 
 @media screen and (max-width: 767px) {
-
-    /* =========================
-       MID SECTION
-    ========================= */
-
     .mid-section {
         position: relative;
         width: 100%;
