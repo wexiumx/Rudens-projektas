@@ -212,7 +212,7 @@
 
 .stories-section {
 	display: flex;
-	height: 46.53rem;
+	height: 46.4815rem;
 	background-color: var(--deep-jungle-green);
 }
 
@@ -390,7 +390,6 @@
 }
 
 .ready-button {
-    margin-bottom: 0.1rem;
     margin-right: -0.1rem;
 	width: 9.5625rem;
 	height: 3rem;
