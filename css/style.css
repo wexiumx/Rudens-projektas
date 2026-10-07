@@ -439,11 +439,13 @@
     color: var(--sacramento-state-green);
 }
 
-.ready-button:hover {
-	background-color: var(--sacramento-state-green);
+.ready-button:hover a {
 	color: var(--white);
 }
 
+.ready-button:hover {
+	background-color: var(--sacramento-state-green);
+}
 
 
 
