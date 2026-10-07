@@ -1,44 +1,85 @@
-/* PC section */
-/*About section*/
-.about-section{
-    padding: 110px;
-    display: block;
+.about-section {
+    position: relative;
     background-color: var(--midnight-green);
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
-    height: 23rem;
-    
+    min-height: 20.3rem;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
 }
-.about-text{
-     font-family: "Livvic-SemiBold", sans-serif;
-   margin-left:28% ;
-   display: flex;
-   gap: 160px;
-    height:4.75rem ;
+
+.about-text {
     width: 69.375rem;
-}
-.about-circle{
+
+    margin-top: 1.85rem;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 30px;
     
-    position: absolute;
-    left: 95%;
-    top: 39.5%;
-    height: 20%;
 }
-.about-text-about{
- font-family: "Livvic-SemiBold", sans-serif;
-    font-size: 64px;
+
+.about-text-about {
+    font-family: "Livvic-Bold", sans-serif;
+    font-size: 4rem;
+    line-height: 8.75rem;
+    margin-left: 3px;
 }
-.about-text-paragraph{
-    font-size: 18px;
-    margin-top: 40px;
+
+.about-paragraph-container {
+    display: flex;
+    flex-direction: column;
+    
 }
-.about-stick{
-    background-color: var(--light-coral);
-    height: 4px;
+
+.about-stick {
     width: 50px;
-    
+    margin-left: 2px;
+    height: 4px;
+    background-color: var(--light-coral);
+    margin-top: 19px;
+    margin-bottom: 40px;
 }
-/* Directors and clients sections */
+
+.about-text-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 2px;
+    letter-spacing: 0.01px;
+
+}
+
+.about-circle {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .directors-section,
 .clients-section {
     position: relative;
@@ -55,7 +96,7 @@
 }
 
 .directors-decoration-top
- {
+{
     position: absolute;
     top: 0;
     left: -4%;
@@ -189,6 +230,27 @@
     transition: transform 180ms ease;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .clients-section {
     min-height: 437px;
     padding: 140px 24px 110px;
@@ -208,86 +270,160 @@
 
 .client-logo {
     display: block;
-    max-width: 18%;
-    max-height: 45px;
     width: auto;
     height: auto;
     object-fit: contain;
 }
+
+.client-logo1 {
+    max-width: 15%;
+    max-height: 2.813rem;
+    margin: -0.063rem;
+}
+
+.client-logo2 {
+width: 11.5rem;
+height: 1.4375rem;
+margin-top: -0.688rem;
+}
+.client-logo3 {
+width: 11.25rem;
+height: 1.75rem;
+margin-right: -0.063rem;
+}
+.client-logo4 {
+width: 10.3125rem;
+height: 1.75rem;
+}
+.client-logo5 {
+    max-width: 15%;
+    max-height: 2.813rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ready-footer {
-    position: relative;
-    width: 100%;
-    height: 12.5rem;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: var(--light-coral);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+	display: flex;
+	height: 12.5rem;
+	overflow: hidden;
+	background-color: var(--light-coral);
 }
 
-.ready-footer h2 {
-    width: 57.3125rem;
-    margin: 0 auto;
-    color: var(--sacramento-state-green);
-    font-family: "Livvic-Bold";
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
-    position: relative;
-    z-index: 1;
-}
-
-.ready-button {
-    position: absolute;
-    top: 50%;
-    right: calc((100% - 57.3125rem) / 2);
-    transform: translateY(-50%);
-    width: 9.5rem;
-    height: 3rem;
-    padding: 0;
-    box-sizing: border-box;
-    border: 0.125rem solid var(--sacramento-state-green);
-    border-radius: 1.5rem;
-    background-color: transparent;
-    color: var(--sacramento-state-green);
-    font-family: "Livvic-Bold";
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.75rem;
-    cursor: pointer;
-    z-index: 1;
+.ready-left {
+	display: flex;
+	align-self: flex-end;
+	width: 0;
 }
 
 .ready-decoration {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 12.5rem;
-    height: auto;
-    display: block;
-    z-index: 0;
+	display: block;
+	width: 12.5rem;
+	height: auto;
+	max-width: none;
 }
 
-.ready-button:hover{
-    background-color: var(--sacramento-state-green);
-    color: var(--white);
-    transition: color 0.2s ease-in-out;
+.ready-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 57.3125rem;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.ready-footer h2 {
+	margin: 0;
+	color: var(--sacramento-state-green);
+	font-family: "Livvic-SemiBold";
+	font-size: 3rem;
+	line-height: 3rem;
+	letter-spacing: -0.019rem;
+    margin-left: 0.1rem;
+}
+
+.ready-button {
+    margin-bottom: 0rem;
+    margin-right: -0.1rem;
+	width: 9.5625rem;
+	height: 3rem;
+    padding-bottom: 0.225rem;
+    padding-left: 0.15rem;
+    letter-spacing: -0.040rem;
+	border: 0.125rem solid var(--sacramento-state-green);
+	border-radius: 1.5rem;
+	background-color: transparent;
+	color: var(--sacramento-state-green);
+	font-family: "Livvic-Bold";
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.ready-button a,
+.ready-button a:visited,
+.ready-button a:link {
+    text-decoration: none;
+    color: var(--sacramento-state-green);
+}
+
+.ready-button:hover a {
+	color: var(--white);
+}
+
+.ready-button:hover {
+	background-color: var(--sacramento-state-green);
 }
 
 
 
 
-/* Tablet section */
 
 
 
 
 
-/* Phone section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
     .directors-section {
@@ -406,7 +542,7 @@
         width: 0.75rem;
         height: 0.75rem;
     }
-}
+
     header {
         height: 6rem;
     }
@@ -514,5 +650,4 @@
         max-width: 10rem;
         max-height: 3rem;
     }
-}
 }
