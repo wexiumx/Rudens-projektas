@@ -478,6 +478,84 @@
 
 @media screen and (max-width: 1352px) {
 
+	.talent-section {
+		height: 31.75rem;
+	}
+
+    .talent-top {
+        margin-top: -1.50rem;
+    }
+
+	.talent-left {
+		display: none;
+	}
+
+	.talent-content {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		text-align: center;
+        margin-left: 0.3rem
+	}
+
+	.talent-section h1 {
+		margin: 0;
+		font-size: 4rem;
+		line-height: 3.5rem;
+	}
+
+	.talent-text {
+		width: 28.5625rem;
+        text-align: center;
+        margin-left: -0.38rem;
+        margin-top: 0.25rem;
+	}
+
+    .talent-text p {
+        letter-spacing: -0.066rem;
+        font-size: 0.9375rem;
+        font-weight: 600;
+    }
+
+	.blue-line {
+		display: none;
+	}
+
+	.talent-section p {
+		margin: 1.25rem 0 0;
+		font-size: 1rem;
+	}
+
+	.talent-bottom {
+		width: 100%;
+		justify-content: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .mid-section {
         position: relative;
         width: 100%;
@@ -523,6 +601,20 @@
         font-weight: 700;
         line-height: 2rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .features {
         position: absolute;
