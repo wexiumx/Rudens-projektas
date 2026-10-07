@@ -43,7 +43,6 @@
 .talent-section h1 {
     font-family: "Livvic-Bold";
     font-size: 6.25rem;
-    font-weight: 500;
     line-height: 6.25rem;
     margin-top: 0.15rem;
 }
@@ -63,9 +62,8 @@
     margin: 4.94rem 0 0 -0.02rem;
     font-family: "Livvic-Bold";
     font-size: 1.125rem;
-    font-weight: 600;
     line-height: 1.75rem;
-    letter-spacing: -0.0415rem;
+    letter-spacing: -0.018rem;
 }
 
 .talent-bottom {
@@ -85,139 +83,133 @@
 }
 
 
-/* =========================
-   MID SECTION
-========================= */
+
+
+
+
+
+
+
+
+
+
 
 .mid-section {
-    position: relative;
-    width: 100%;
-    height: 42.75rem;
-    background-color: var(--sacramento-state-green);
-    margin: 0 auto;
-    padding: 8.75rem 2rem 0;              
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 27.8125rem 33.7rem; 
-    column-gap: 7.5rem;
-    justify-content: center;               
-    overflow: hidden;
+	display: flex;
+	height: 42.75rem;
+	overflow: hidden;
+	background-color: var(--sacramento-state-green);
 }
 
-
-.mid-decoration {
-    position: absolute;
-    width: 12.5rem;
-    height: 15.25rem;
-    right: -6.25rem;
-    bottom: 0;
-    display: block;
+.mid-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 69.375rem;
+	max-width: 100%;
+	margin: 8.8125rem auto;
 }
 
 .mid-heading {
-    position: relative;
-    padding-top: 3.78rem;
-    transform: translateX(0.5rem);
+	width: 27.8125rem;
 }
 
-.mid-heading::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 3.125rem;
-    height: 0.25rem;
-    margin-left: -0.688rem;
-    background-color: var(--light-coral);
+.mid-line {
+	width: 3.125rem;
+	height: 0.25rem;
+	background-color: var(--light-coral);
+    margin-top: -0.1rem;
 }
-
 
 .mid-heading h2 {
-    width: 27.8125rem;
-    margin: 0;
-    color: var(--white);
-    font-family: "Livvic-Bold", sans-serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
-    margin-left: -0.688rem;
+	margin: 3.39rem 0 0;
+	color: var(--white);
+	font-family: "Livvic-Bold";
+	font-size: 3rem;
+	line-height: 3rem;
 }
 
-.features {
-    display: flex;
-    flex-direction: column;
-
-    padding-top: 4.05rem;
+.mid-features {
+	width: 33.75rem;
+	margin-top: 3.5rem;
 }
 
 .feature {
-    display: grid;
-
-    grid-template-columns: 4.995rem 1fr;
-    column-gap: 1.251rem;
-
-    align-items: start;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 2rem;
 }
 
-.feature-1 {
-    transform: translate(0, -0.36rem);
-}
-
-.feature-2 {
-    margin-top: 2.25rem;
-}
-
-.feature-3 {
-    margin-top: 2.61rem;
+.feature:last-child {
+	margin-bottom: 0;
 }
 
 .feature-icon {
-    width: 4.5rem;
-    height: 4.5rem;
-    transform: translate(0.45rem, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: block;
+	flex-shrink: 0;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin-right: 1.4375rem;
 }
 
-.feature-icon img {
-    display: block;
-    width: 4.5rem;
-    height: 4.5rem;
-    object-fit: contain;
+.feature-icon1 {
+    margin-left: 0.45rem;
+    width: 4rem;
 }
 
-.feature-content {
-    padding-top: 0;
+.feature-text {
+	width: 27.8125rem;
+	margin-top: 0rem;
 }
 
-.feature-content h3 {
-    margin: 0 0 0.39rem;
-    color: var(--light-coral);
-    font-family: "Livvic-Bold", sans-serif;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.75rem;
+.feature-text h3 {
+	margin: 0;
+	color: var(--light-coral);
+	font-family: "Livvic-Bold";
+	font-size: 1.125rem;
+	line-height: 1.75rem;
 }
 
-.feature-content p {
-    max-width: 27.45rem;
-    transform: translate(0, 0.6rem);
-    margin: 0;
-    color: var(--white);
-    opacity: 0.8;
-    font-family: "Livvic-Medium", sans-serif;
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.5625rem;
+.feature-text p {
+	margin: 1rem 0 0;
+	color: var(--white);
+	opacity: 0.8;
+	font-family: "Livvic-Medium";
+	font-size: 0.9375rem;
+	line-height: 1.5625rem;
+    letter-spacing: 0.012rem;
 }
 
-/* =========================
-   STORIES-SECTION
-========================= */
+.mid-right {
+	align-self: flex-end;
+	width: 0;
+}
+
+.mid-deco {
+	display: block;
+	width: 12.5rem;
+	height: 15.25rem;
+	max-width: none;
+	margin-left: -6.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .stories {
     width: 100%;
@@ -253,7 +245,6 @@
     font-family: "Livvic-Bold", sans-serif;
     font-size: 3rem;
     font-style: normal;
-    font-weight: 700;
     line-height: 3rem;
     text-align: center;
     z-index: 1;
@@ -303,7 +294,6 @@
     font-family: "Livvic-SemiBold", sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
-    font-weight: 600;
     line-height: 1.5625rem;
     text-align: center;
     z-index: 1;
@@ -323,7 +313,6 @@
     font-family: "Livvic-Bold", sans-serif;
     font-size: 1.125rem;
     font-style: normal;
-    font-weight: 700;
     line-height: 1.75rem;
 }
 
@@ -333,7 +322,6 @@
     font-family: "Livvic-Italic", sans-serif;
     font-size: 0.8125rem;
     font-style: italic;
-    font-weight: 400;
     line-height: 1.125rem;
 }
 
@@ -407,7 +395,6 @@
 	color: var(--sacramento-state-green);
 	font-family: "Livvic-SemiBold";
 	font-size: 3rem;
-	font-weight: 700;
 	line-height: 3rem;
 	letter-spacing: -0.019rem;
     margin-left: 0.1rem;
@@ -427,7 +414,6 @@
 	color: var(--sacramento-state-green);
 	font-family: "Livvic-Bold";
 	font-size: 1.125rem;
-	font-weight: 600;
 	line-height: 1.75rem;
 	cursor: pointer;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -514,7 +500,6 @@
     .talent-text p {
         letter-spacing: -0.066rem;
         font-size: 0.9375rem;
-        font-weight: 600;
     }
 
 	.blue-line {
@@ -598,7 +583,6 @@
         font-family: "Livvic-Bold", sans-serif;
         font-size: 2rem;
         font-style: normal;
-        font-weight: 700;
         line-height: 2rem;
     }
 
@@ -688,7 +672,6 @@
         font-family: "Livvic-Bold", sans-serif;
         font-size: 1.125rem;
         font-style: normal;
-        font-weight: 700;
         line-height: 1.75rem;
     }
 
@@ -701,7 +684,6 @@
         font-family: "Livvic-Regular", sans-serif;
         font-size: 0.9375rem;
         font-style: normal;
-        font-weight: 600;
         line-height: 1.5625rem;
         word-spacing: 15%;
     }
@@ -782,7 +764,6 @@
         font-family: "Livvic-Bold", sans-serif;
         font-size: 2rem;
         font-style: normal;
-        font-weight: 700;
         line-height: 2rem;
     }
 
@@ -868,7 +849,6 @@
         font-family: "Livvic-Bold", sans-serif;
         font-size: 1.125rem;
         font-style: normal;
-        font-weight: 700;
         line-height: 1.75rem;
         text-align: center;
     }
@@ -883,7 +863,6 @@
         font-family: "Livvic-Medium", sans-serif;
         font-size: 0.9375rem;
         font-style: normal;
-        font-weight: 600;
         line-height: 1.5625rem;
         text-align: center;
         transform: none;
