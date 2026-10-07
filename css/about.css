@@ -1,42 +1,63 @@
-/* PC section */
-/*About section*/
-.about-section{
-    padding: 110px;
-    display: block;
+.about-section {
+    position: relative;
     background-color: var(--midnight-green);
     color: white;
     font-family: "Livvic-SemiBold", sans-serif;
-    height: 23rem;
-    
+    min-height: 20.3rem;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
 }
-.about-text{
-     font-family: "Livvic-SemiBold", sans-serif;
-   margin-left:28% ;
-   display: flex;
-   gap: 160px;
-    height:4.75rem ;
+
+.about-text {
     width: 69.375rem;
-}
-.about-circle{
+
+    margin-top: 1.85rem;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 30px;
     
-    position: absolute;
-    left: 95%;
-    top: 39.5%;
-    height: 20%;
 }
-.about-text-about{
- font-family: "Livvic-SemiBold", sans-serif;
-    font-size: 64px;
+
+.about-text-about {
+    font-family: "Livvic-Bold", sans-serif;
+    font-size: 4rem;
+    line-height: 8.75rem;
+    margin-left: 3px;
 }
-.about-text-paragraph{
-    font-size: 18px;
-    margin-top: 40px;
+
+.about-paragraph-container {
+    display: flex;
+    flex-direction: column;
+    
 }
-.about-stick{
-    background-color: var(--light-coral);
-    height: 4px;
+
+.about-stick {
     width: 50px;
-    
+    margin-left: 2px;
+    height: 4px;
+    background-color: var(--light-coral);
+    margin-top: 19px;
+    margin-bottom: 40px;
+}
+
+.about-text-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 2px;
+    letter-spacing: 0.01px;
+
+}
+
+.about-circle {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+
+    width: 200px;
+    height: auto;
 }
 /* Directors and clients sections */
 .directors-section,
@@ -55,7 +76,7 @@
 }
 
 .directors-decoration-top
- {
+{
     position: absolute;
     top: 0;
     left: -4%;
@@ -208,12 +229,36 @@
 
 .client-logo {
     display: block;
-    max-width: 18%;
-    max-height: 45px;
     width: auto;
     height: auto;
     object-fit: contain;
 }
+
+.client-logo1 {
+    max-width: 15%;
+    max-height: 2.813rem;
+    margin: -0.063rem;
+}
+
+.client-logo2 {
+width: 11.5rem;
+height: 1.4375rem;
+margin-top: -0.688rem;
+}
+.client-logo3 {
+width: 11.25rem;
+height: 1.75rem;
+margin-right: -0.063rem;
+}
+.client-logo4 {
+width: 10.3125rem;
+height: 1.75rem;
+}
+.client-logo5 {
+    max-width: 15%;
+    max-height: 2.813rem;
+}
+
 .ready-footer {
     position: relative;
     width: 100%;
@@ -278,16 +323,12 @@
     transition: color 0.2s ease-in-out;
 }
 
-
-
-
 /* Tablet section */
 
 
 
 
 
-/* Phone section */
 
 @media screen and (max-width: 767px) {
     .directors-section {
@@ -406,7 +447,7 @@
         width: 0.75rem;
         height: 0.75rem;
     }
-}
+
     header {
         height: 6rem;
     }
@@ -514,5 +555,4 @@
         max-width: 10rem;
         max-height: 3rem;
     }
-}
 }
