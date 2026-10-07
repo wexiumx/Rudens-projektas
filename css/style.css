@@ -357,74 +357,85 @@
     z-index: 0;
 }
 
-/* =========================
-   READY FOOTER
-========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ready-footer {
-    position: relative;
-    width: 100%;
-    height: 12.5rem;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: var(--light-coral);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+	display: flex;
+	height: 12.5rem;
+	overflow: hidden;
+	background-color: var(--light-coral);
 }
 
-.ready-footer h2 {
-    width: 57.3125rem;
-    margin: 0 auto;
-    color: var(--sacramento-state-green);
-    font-family: "Livvic-Bold";
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3rem;
-    position: relative;
-    z-index: 1;
-}
-
-.ready-button {
-    position: absolute;
-    top: 50%;
-    right: calc((100% - 57.3125rem) / 2);
-    transform: translateY(-50%);
-    width: 9.5rem;
-    height: 3rem;
-    padding: 0;
-    box-sizing: border-box;
-    border: 0.125rem solid var(--sacramento-state-green);
-    border-radius: 1.5rem;
-    background-color: transparent;
-    color: var(--sacramento-state-green);
-    font-family: "Livvic-Bold";
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.75rem;
-    cursor: pointer;
-    z-index: 1;
+.ready-left {
+	display: flex;
+	align-self: flex-end;
+	width: 0;
 }
 
 .ready-decoration {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 12.5rem;
-    height: auto;
-    display: block;
-    z-index: 0;
+	display: block;
+	width: 12.5rem;
+	height: auto;
+	max-width: none;
 }
 
-.ready-button:hover{
-    background-color: var(--sacramento-state-green);
-    color: var(--white);
-    transition: color 0.2s ease-in-out;
+.ready-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 57.3125rem;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
+.ready-footer h2 {
+	margin: 0;
+	color: var(--sacramento-state-green);
+	font-family: "Livvic-SemiBold";
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 3rem;
+	letter-spacing: -0.019rem;
+    margin-left: 0.1rem;
+}
+
+.ready-button {
+    margin-bottom: 0.1rem;
+    margin-right: -0.1rem;
+	width: 9.5625rem;
+	height: 3rem;
+    padding-bottom: 0.22556rem;
+    padding-left: 0.27rem;
+    letter-spacing: -0.040rem;
+	border: 0.125rem solid var(--sacramento-state-green);
+	border-radius: 1.5rem;
+	background-color: transparent;
+	color: var(--sacramento-state-green);
+	font-family: "Livvic-Bold";
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.75rem;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.ready-button:hover {
+	background-color: var(--sacramento-state-green);
+	color: var(--white);
+}
 
 
 
