@@ -2,105 +2,86 @@
    DESKTOP
 ========================= */
 
-/* ========================= 
-   TALENT SECTION
-========================= */
-
-
 .talent-section {
-  display: grid;
-  grid-template: 1fr / 1fr;
-  height: 31.8rem;
-  width: 100%;
-  overflow: hidden; 
-  background-color: var(--midnight-green);
-  color: white;
-}
-
-.talent-section > * {
-  grid-area: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    height: 31.8rem;
+    background-color: var(--midnight-green);
+    color: #fff;
 }
 
 .talent-section span {
-  color: var(--light-coral);
+    color: var(--light-coral);
 }
 
-.talent-section .box {
-  display: flex;
-  justify-content: space-between;
-  justify-self: center;
-  align-self: start;
-  box-sizing: border-box;
-  width: 69.375rem;
-  max-width: 100%;
-  margin: 3.5rem 0 0;
+.talent-top {
+    display: flex;
+    align-items: flex-start;
 }
 
-.talent-section aside:first-child {
-  width: 39.6875rem;    
+.talent-left {
+    width: 0;
 }
 
-.talent-section aside:last-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 4.9375rem;
-  width: 27.8125rem;
-  height: 12.1875rem;
+.talent-deco-left {
+    display: block;
+    width: 12.5rem;
+    height: 12.5rem;
+    max-width: none;
+    margin-top: 3.6rem;
+    margin-left: -6.3rem;
+}
+
+.talent-content {
+    display: flex;
+    justify-content: space-between;
+    width: 69.375rem;
+    max-width: 100%;
+    margin: 3.5rem auto 0;
 }
 
 .talent-section h1 {
-  font-family: "Livvic-Bold";
-  color: #fff;
-  font-size: 6.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 6.25rem;
-  margin-top: 0.18rem;
-  margin-left: -0.35rem;
+    font-family: "Livvic-Bold";
+    font-size: 6.25rem;
+    font-weight: 500;
+    line-height: 6.25rem;
+    margin-top: 0.15rem;
+}
+
+.talent-text {
+    width: 27.8125rem;
+}
+
+.blue-line {
+    width: 3.125rem;
+    height: 0.25rem;
+    margin-top: 0.125rem;
+    background-color: var(--rapture-blue);
 }
 
 .talent-section p {
-  font-family: "Livvic-Bold";
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.75rem;
-  letter-spacing: -0.3px;
+    margin: 4.9375rem 0 0;
+    font-family: "Livvic-Bold";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: -0.042rem;
 }
 
-.talent-section .blue-line {
-  width: 3.125rem;
-  height: 0.25rem;
-  margin-top: 0.25rem;
-  flex-shrink: 0;
-  background-color: var(--rapture-blue);
+.talent-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    width: 69.375rem;
+    max-width: 100%;
+    margin-top: auto;
 }
 
-.talent-decoration {
-  display: block;
-  pointer-events: none;
+.talent-deco-right {
+    display: block;
+    width: 22.375rem;
+    height: 6.5rem;
 }
-
-.talent-decoration-1 {
-  height: 12.5rem;
-  justify-self: start;
-  align-self: start;
-  margin-top: 3.6rem;            
-  margin-left: 1.2rem;
-  transform: translateX(-60%); 
-}
-
-.talent-decoration-2 {
-  width: 22.375rem;
-  height: 6.5rem;
-  justify-self: end;
-  align-self: end;
-  margin-right: calc((100% - 69.375rem) / 2);
-  transform: translateY(0);    
-}
-
 
 
 /* =========================
