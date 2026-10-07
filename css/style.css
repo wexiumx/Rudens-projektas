@@ -418,7 +418,7 @@
 	width: 9.5625rem;
 	height: 3rem;
     padding-bottom: 0.22556rem;
-    padding-left: 0.27rem;
+    padding-left: 0.15rem;
     letter-spacing: -0.040rem;
 	border: 0.125rem solid var(--sacramento-state-green);
 	border-radius: 1.5rem;
@@ -430,6 +430,13 @@
 	line-height: 1.75rem;
 	cursor: pointer;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.ready-button a,
+.ready-button a:visited,
+.ready-button a:link {
+    text-decoration: none;
+    color: var(--sacramento-state-green);
 }
 
 .ready-button:hover {
