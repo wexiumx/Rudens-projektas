@@ -29,7 +29,7 @@
     height: 12.5rem;
     max-width: none;
     margin-top: 3.6rem;
-    margin-left: -6.3rem;
+    margin-left: -6.25rem;
 }
 
 .talent-content {
@@ -60,12 +60,12 @@
 }
 
 .talent-section p {
-    margin: 4.9375rem 0 0;
+    margin: 4.94rem 0 0 -0.02rem;
     font-family: "Livvic-Bold";
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.75rem;
-    letter-spacing: -0.042rem;
+    letter-spacing: -0.0415rem;
 }
 
 .talent-bottom {
@@ -75,12 +75,13 @@
     width: 69.375rem;
     max-width: 100%;
     margin-top: auto;
+    margin-bottom: 0.02rem;
 }
 
 .talent-deco-right {
     display: block;
     width: 22.375rem;
-    height: 6.5rem;
+    height: 6.25rem;
 }
 
 
