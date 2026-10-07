@@ -11,13 +11,12 @@
 
 .about-text {
     width: 69.375rem;
-
     margin-top: 1.85rem;
     height: 10rem;
     display: grid;
     grid-template-columns: 350px 1fr;
     column-gap: 30px;
-    
+    margin-left: -0.3rem;
 }
 
 .about-text-about {
@@ -30,7 +29,6 @@
 .about-paragraph-container {
     display: flex;
     flex-direction: column;
-    
 }
 
 .about-stick {
@@ -55,7 +53,6 @@
     position: absolute;
     right: -100px;
     bottom: 0;
-
     width: 200px;
     height: auto;
 }
@@ -352,18 +349,16 @@ height: 1.75rem;
 	font-family: "Livvic-SemiBold";
 	font-size: 3rem;
 	line-height: 3rem;
-	letter-spacing: -0.019rem;
+	letter-spacing: 0.048rem;
     margin-left: 0.1rem;
 }
 
 .ready-button {
-    margin-bottom: 0rem;
     margin-right: -0.1rem;
 	width: 9.5625rem;
 	height: 3rem;
-    padding-bottom: 0.225rem;
-    padding-left: 0.15rem;
-    letter-spacing: -0.040rem;
+    padding-bottom: 0.1rem;
+    letter-spacing: -0.02rem;
 	border: 0.125rem solid var(--sacramento-state-green);
 	border-radius: 1.5rem;
 	background-color: transparent;
