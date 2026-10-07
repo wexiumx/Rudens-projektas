@@ -485,7 +485,7 @@
 	}
 
     .talent-text p {
-        letter-spacing: -0.066rem;
+        letter-spacing: -0.045rem;
         font-size: 0.9375rem;
     }
 
@@ -526,52 +526,6 @@
 
 
 
-
-
-    .mid-section {
-        position: relative;
-        width: 100%;
-        height: 44.375rem;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        display: block;
-        overflow: hidden;
-    }
-
-    .mid-heading {
-        position: absolute;
-        top: 6.25rem;
-        left: 6.125rem;
-        width: 27.8125rem;
-        height: 4rem;
-        padding: 2.125rem 0 0;
-        margin: 0;
-        box-sizing: border-box;
-        transform: none;
-        z-index: 1;
-    }
-
-    .mid-heading::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 3.125rem;
-        height: 0.25rem;
-        background-color: var(--light-coral);
-    }
-
-    .mid-heading h2 {
-        width: 27.8125rem;
-        height: 4rem;
-        margin: 0;
-        color: var(--white);
-        font-family: "Livvic-Bold", sans-serif;
-        font-size: 2rem;
-        font-style: normal;
-        line-height: 2rem;
-    }
 
 
 
