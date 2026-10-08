@@ -89,14 +89,14 @@
 
 .directors-section {
     background: var(--deep-jungle-green);
-    padding: 140px 24px 168px;
+    padding: 8.75rem 1.5rem 10.5rem;
 }
 
 .directors-decoration-top
 {
     position: absolute;
     top: 0;
-    left: -4%;
+    left: -6.25rem;
 }
 
 .directors-decoration-bottom {
@@ -109,8 +109,8 @@
 .clients-section > h2 {
     position: relative;
     z-index: 1;
-    margin: 0 0 64px;
-    font: 48px/48px "Livvic-Bold", sans-serif;
+    margin: 0 0 4rem;
+    font: 3rem/3rem "Livvic-Bold", sans-serif;
 }
 
 .directors-grid {
@@ -118,14 +118,14 @@
     z-index: 1;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 76px 30px;
-    max-width: 1110px;
+    gap: 4.75rem 1.875rem;
+    max-width: 69.375rem;
     margin: auto;
 }
 
 .director-card {
     position: relative;
-    height: 253px;
+    height: 15.8125rem;
     background: var(--sacramento-state-green);
 }
 
@@ -137,29 +137,29 @@
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
 }
 
 .director-avatar {
-    width: 96px;
-    height: 96px;
+    width: 6rem;
+    height: 6rem;
     box-sizing: border-box;
-    border: 2px solid #c4fffe;
+    border: 0.125rem solid #c4fffe;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .directors-section h3 {
     margin: 0;
     color: var(--rapture-blue);
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 
 .directors-section p {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
 }
 
 .director-profile p {
@@ -174,27 +174,27 @@
 }
 
 .director-details p {
-    max-width: 255px;
-    margin-top: 8px;
+    max-width: 15.9375rem;
+    margin-top: 0.5rem;
 }
 
 .director-details div {
     display: flex;
-    gap: 16px;
-    margin-top: 24px;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .director-social-icon {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     cursor: pointer;
     object-fit: contain;
     transition: transform 180ms ease;
 }
 
 .director-social-icon:hover {
-    transform: translateY(-4px) scale(1.15);
+    transform: translateY(-0.25rem) scale(1.15);
     filter: invert(47%) sepia(100%) saturate(499%) hue-rotate(314deg) brightness(110%) contrast(93%);
 }
 
@@ -207,11 +207,11 @@
     position: absolute;
     z-index: 2;
     left: 50%;
-    bottom: -28px;
+    bottom: -1.75rem;
     display: grid;
     place-items: center;
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
     padding: 0;
     transform: translateX(-50%);
     border: 0;
@@ -227,8 +227,8 @@
 }
 
 .director-card > button:focus-visible {
-    outline: 2px solid var(--white);
-    outline-offset: 3px;
+    outline: 0.125rem solid var(--white);
+    outline-offset: 0.1875rem;
 }
 
 .director-card.is-open > button {
@@ -240,8 +240,8 @@
 }
 
 .director-toggle-icon {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     transition: transform 180ms ease;
 }
 
@@ -428,6 +428,80 @@ height: 1.75rem;
 
 
 @media screen and (max-width: 1352px) {
+
+.directors-section {
+    padding: 5rem 1.5rem 8rem;
+}
+
+.directors-section > h2 {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
+
+.directors-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3.75rem 0.625rem;
+    margin: 0 4.6rem;  
+
+}
+
+.director-card {
+    height: 12.4375rem;
+}
+
+.director-profile,
+.director-card > article {
+    padding: 1.5rem 1rem;
+}
+
+.director-avatar {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.75rem;
+}
+
+.directors-section h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.directors-section p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.director-details p {
+    max-width: 12.5rem;
+    margin-top: 0.5rem;
+}
+
+.director-details div {
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .client-icon {
     position: absolute;
     left: 0;
