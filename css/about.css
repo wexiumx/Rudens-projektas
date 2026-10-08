@@ -243,9 +243,6 @@
 
 .director-card.is-open > button {
     background: var(--rapture-blue);
-    border: 2px solid var(--white);
-    outline: 2px solid var(--dark-green);
-    outline-offset: 2px;
 }
 
 .director-card.is-open > button .director-toggle-icon {
