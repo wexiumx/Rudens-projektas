@@ -595,6 +595,41 @@
 	.story-avatar {
 		margin: 0.9375rem auto 0;
 	}
+
+
+
+
+    .ready-footer {
+        position: relative; 
+        display: flex;
+        height: 12.5rem;
+        overflow: hidden;
+        background-color: var(--light-coral);
+    }
+
+    .ready-footer h2 {
+        margin-right: -0.5rem;
+        font-size: 2rem;
+        padding-left: 0.1rem;
+    }
+
+    .ready-footer .ready-content {
+        display: flex;
+        justify-content: center;
+        gap: 5.25rem;
+    }
+
+    .ready-footer .ready-button {
+        width: 9.5625rem;
+        height: 3rem;
+    }
+
+    .ready-footer .ready-left {
+        position: absolute;
+        bottom: -1.35rem; 
+        left: 0;
+    } 
+
 }
 
 
