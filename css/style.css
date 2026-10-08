@@ -247,7 +247,7 @@
     margin-top: -0.15rem;
 }
 
-.stories-box h2 span {
+.stories-box h2 span:last-child {
 	color: var(--rapture-blue);
 }
 
@@ -546,6 +546,59 @@
 	.mid-right {
 		align-self: flex-start;
 	}
+
+
+
+
+
+
+
+
+
+
+    
+    .stories-section {
+		height: 74.9375rem;
+	}
+
+	.stories-box {
+		width: 100%;
+		margin: 6.3rem auto 0;
+	}
+
+    .stories-box span:first-child {
+        margin-left: -0.5rem;
+    }
+
+	.stories-box h2 {
+		width: 29.5rem;
+		margin: 0 auto;
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.stories {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2.8rem;
+	}
+
+    .stories p {
+        margin-top: 0.05rem;
+    }
+
+	.story {
+		width: 35.5625rem;
+		margin-bottom: 2.7rem;
+	}
+
+	.story-name {
+		margin-top: 1rem;
+	}
+
+	.story-avatar {
+		margin: 0.9375rem auto 0;
+	}
 }
 
 
@@ -609,6 +662,28 @@
         font-size: 2rem;
         font-style: normal;
         line-height: 2rem;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .stories-header span {
+        display: block;
+        color: var(--rapture-blue);
+        font-family: "Livvic-Bold", sans-serif;
+    }
+
+    .stories-grid {
+        width: 100%;
+        margin: 4.75rem 0 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .story {
+        width: 35.75rem;
     }
 
     .features {
@@ -635,6 +710,44 @@
         align-items: center;
         box-sizing: border-box;
         text-align: center;
+        z-index: 1;
+    }
+
+    .stories-quotes-decoration {
+        width: 4.5rem;
+        height: 3.5625rem;
+        display: block;
+        flex-shrink: 0;
+        margin: 0;
+        transform: translateY(1.625rem);
+        z-index: 0;
+    }
+
+    .story > p {
+        width: 35.75rem;
+        margin: 0;
+        color: var(--white);
+        font-family: "Livvic-SemiBold", sans-serif;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5625rem;
+        text-align: center;
+        z-index: 1;
+        transform: translateY(0.5rem);
+    }
+
+    .stories-title {
+        width: 100%;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stories-title h3 {
+        margin: 0;
+        color: var(--rapture-blue);
         transform: none;
     }
 
@@ -694,6 +807,70 @@
         font-size: 1.125rem;
         font-style: normal;
         line-height: 1.75rem;
+    }
+
+    .stories-title h4 {
+        margin: 0;
+        color: var(--white);
+        font-family: "Livvic-Italic", sans-serif;
+        font-size: 0.8125rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.125rem;
+    }
+
+    .stories-title img {
+        width: 4rem;
+        height: 4rem;
+
+        margin-top: 1.75rem;
+
+        display: block;
+        box-sizing: border-box;
+
+        border: 0.125rem solid var(--rapture-blue);
+        border-radius: 50%;
+
+        object-fit: cover;
+    }
+
+    .story:nth-child(1) {
+        transform: translateY(-3.5rem);
+    }
+
+    .story:nth-child(2) {
+        transform: translateY(-3.85rem);
+    }
+
+    .story:nth-child(3) {
+        transform: translateY(-4.25rem);
+    }
+
+    .story:nth-child(1) .stories-title img {
+        transform: translateY(-1rem);
+    }
+
+    .story:nth-child(2) .stories-title img {
+        transform: translateY(-1rem);
+    }
+
+    .story:nth-child(3) .stories-title img {
+        transform: translateY(-0.8rem);
+    }
+
+    .story + .story {
+        margin-top: 0.75rem;
+    }
+
+
+    .stories-decoration-2 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 12.5rem;
+        height: auto;
+        display: block;
+        z-index: 0;
         text-align: center;
     }
 
