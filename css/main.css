@@ -104,16 +104,14 @@
 
 /* rules */
 
-body {
-    margin: 0;
-}
+body { margin: 0; }
+p { margin: 0; }
+h1 { margin: 0; }
 
 
 
 
-
-/* navigation bar */
-
+    
 header {
     height: 12.0rem;
     width: 100%;
@@ -140,13 +138,13 @@ header button {
     width: 9.563rem;
     height: 3rem;
     border-radius: 1.5rem;
+    padding-bottom: 0.15rem;
     color: white;
     text-decoration: none;
     border: 2px solid white;
     background-color: transparent;
     font-size: 1.125rem;
     font-style: normal;
-    font-weight: 600;
     line-height: 1.75rem;
     font-family: "Livvic-SemiBold";
 }
@@ -160,7 +158,6 @@ header a {
     color: white;
     font-size: 1.125rem;
     font-style: normal;
-    font-weight: 600;
     line-height: 1.75rem;
     font-family: "Livvic-SemiBold";
 }
@@ -194,122 +191,20 @@ header nav {
     margin-left: 5rem;
 }
 
-header button {
-    width: 9.563rem;
-    height: 3rem;
-    border-radius: 1.5rem;
-    border: 2px solid white;
-    background-color: transparent;
-    color: white;
+header nav a {
+    letter-spacing: 0.01rem;
 }
 
 
-p { margin: 0; }
-h1 { margin: 0; }
-
-
-
-/* Tablet */
-
-@media screen and (max-width: 1352px) and (min-width: 768px) {
-    header {
-        height: 12.0rem;
-        width: 100%;
-        background-color: var(--midnight-green);
-        display: flex;
-        justify-content: center;
-    }
-
-    .header-navigation-bar {
-        width: 43.0625rem; 
-        height: 3rem;
-        background-color: var(--midnight-green);
-        margin: 4rem 2.44rem;
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
-        box-sizing: border-box;
-    }
-
-    header button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 9.563rem;
-        height: 3rem;
-        border-radius: 1.5rem;
-        color: white;
-        text-decoration: none;
-        border: 2px solid white;
-        background-color: transparent;
-        font-size: 1.125rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.75rem;
-        font-family: "Livvic-SemiBold";
-    }
-
-    header aside:first-child {
-        display: flex;
-    }
-
-    header a {
-        text-decoration: none;
-        color: white;
-        font-size: 1.125rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.75rem;
-        font-family: "Livvic-SemiBold";
-    }
-
-    header nav a:hover {
-        color: var(--light-coral);
-        transition: color 0.2s ease-in-out;
-    }
-
-    header button:hover {
-        background-color: white;
-        cursor: pointer;
-        transition: color 0.2s ease-in-out;
-    }
-
-    header button:hover a {
-        color: black;
-        transition: color 0.2s ease-in-out;
-    }
-
-
-    .header-navigation-bar img {
-        width: 8rem;
-        height: 2rem;
-    }
-
-    header nav {
-        display: flex;
-        align-items: center;
-        gap: 2.5rem;                      
-        margin-left: 3rem;
-    }
-
-    header button {
-        width: 9.563rem;
-        height: 3rem;
-        border-radius: 1.5rem;
-        border: 2px solid white;
-        background-color: transparent;
-        color: white;
-    }
-
-
-    p { margin: 0; }
-    h1 { margin: 0; }
+.header-navigation-bar .nav-toggle {
+	display: none;
 }
 
 
 
 
-/* footer */
+
+
 
 .site-footer {
     width: 100%;
@@ -338,6 +233,10 @@ h1 { margin: 0; }
     gap: 7.8125rem;
 }
 
+.footer-left img {
+    margin-top: -0.5rem;
+}
+
 .footer-logo {
     width: 10rem;
     height: 2.5rem;
@@ -358,7 +257,6 @@ h1 { margin: 0; }
     text-decoration: none;
     font-family: "Livvic-SemiBold", sans-serif;
     font-size: 1.125rem;
-    font-weight: 600;
     line-height: 1.75rem;
 }
 
@@ -371,13 +269,16 @@ h1 { margin: 0; }
     font-family: "Livvic-SemiBold", sans-serif;
     font-size: 0.9375rem;
     font-style: normal;
-    font-weight: 600;
     line-height: 1.5625rem;
     opacity: 0.6;
 }
 
 .footer-address {
     font-style: normal;
+}
+
+.footer-address p:first-child span {
+    margin-left: 0.22rem
 }
 
 .footer-address p {
@@ -438,7 +339,152 @@ h1 { margin: 0; }
     opacity: 0.6;
     font-family: "Livvic-SemiBold", sans-serif;
     font-size: 0.9375rem;
-    font-weight: 600;
     line-height: 1.5625rem;
     margin: 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1352px) {
+    header {
+        height: 12.0rem;
+        width: 100%;
+        background-color: var(--midnight-green);
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-navigation-bar {
+        width: 43.0625rem; 
+        height: 3rem;
+        background-color: var(--midnight-green);
+        margin: 4rem 2.44rem;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    header button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 9.563rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        background-color: transparent;
+        font-size: 1.125rem;
+        font-style: normal;
+        line-height: 1.75rem;
+        font-family: "Livvic-SemiBold";
+    }
+
+    header aside:first-child {
+        display: flex;
+    }
+
+    header a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.125rem;
+        font-style: normal;
+        line-height: 1.75rem;
+        font-family: "Livvic-SemiBold";
+    }
+
+    header nav a:hover {
+        color: var(--light-coral);
+        transition: color 0.2s ease-in-out;
+    }
+
+    header button:hover {
+        background-color: white;
+        cursor: pointer;
+        transition: color 0.2s ease-in-out;
+    }
+
+    header button:hover a {
+        color: black;
+        transition: color 0.2s ease-in-out;
+    }
+
+
+    .header-navigation-bar img {
+        width: 8rem;
+        height: 2rem;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;                      
+        margin-left: 3rem;
+    }
+
+    header button {
+        width: 9.563rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+    }
+
+
+    p { margin: 0; }
+    h1 { margin: 0; }
+}
+
+
+@media screen and (max-width: 767px) {
+    .header-navigation-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20.4375rem;
+        max-width: 100%;
+        height: 8rem;
+        margin: 0 auto;
+    }
+
+    .header-navigation-bar nav,
+    .header-navigation-bar .nav-contact {
+        display: none;
+    }
+
+    .nav-logo {
+        width: 8rem;
+        height: auto;
+    }
+
+    .header-navigation-bar .nav-toggle {
+        display: block;
+        width: 1.25rem;
+        height: 1.0625rem;
+        min-width: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .header-navigation-bar .nav-toggle:hover {
+        background-color: transparent;
+    }
+
+    .nav-toggle img {
+        display: block;
+        width: 1.25rem;
+        height: 1.0625rem;
+    }
+
 }
