@@ -190,12 +190,12 @@
     height: 24px;
     cursor: pointer;
     object-fit: contain;
-    transition: transform 180ms ease, filter 180ms ease;
+    transition: transform 180ms ease;
 }
 
 .director-social-icon:hover {
     transform: translateY(-4px) scale(1.15);
-    filter: invert(67%) sepia(39%) saturate(1457%) hue-rotate(314deg) brightness(100%) contrast(94%);
+    filter: invert(47%) sepia(100%) saturate(499%) hue-rotate(314deg) brightness(110%) contrast(93%);
 }
 
 .director-card.is-open > .director-details {
