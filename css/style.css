@@ -599,9 +599,8 @@
 
 
 @media screen and (max-width: 767px) {
-    
 	.talent-section {
-		height: 27.5rem;
+		height: 23.45rem;
 	}
 
 	.talent-content {
@@ -611,14 +610,18 @@
 	.talent-section h1 {
 		font-size: 2.5rem;
 		line-height: 2.5rem;
+        margin-top: -2.54rem;
 	}
 
 	.talent-text {
 		width: 20.4375rem;
 	}
 
+
 	.talent-section p {
-		margin-top: 1.125rem;
+		margin-top: 0.9rem;
+        margin-left: 0.2rem;
+        letter-spacing: -0.01rem;
 		font-size: 0.9375rem;
 		line-height: 1.75rem;
 	}
@@ -935,4 +938,32 @@
     .feature-3 > .feature-content > p {
         width: 19.525rem;
     }
+}
+
+
+
+
+
+@media screen and (max-width: 370px) {
+.talent-section {
+	height: auto;
+	min-height: 27.5rem;
+}
+
+.talent-content {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 1.5rem;
+	margin: 2.0625rem auto 0;
+}
+
+.talent-text {
+	width: 100%;
+	max-width: 20.4375rem;
+}
+
+.talent-deco-right {
+	max-width: 100%;
+	height: auto;
+}
 }
