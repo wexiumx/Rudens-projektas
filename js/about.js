@@ -36,33 +36,6 @@ if (navToggle && siteNav) {
         setNavOpen(navToggle.getAttribute("aria-expanded") !== "true");
     });
 
-    siteNav.addEventListener("click", (event) => {
-        if (event.target.closest("a")) {
-            setNavOpen(false);
-        }
-    });
-
-    navContact?.addEventListener("click", () => {
-        setNavOpen(false);
-    });
-
-    document.addEventListener("click", (event) => {
-        if (
-            document.body.classList.contains("nav-open") &&
-            !siteNav.contains(event.target) &&
-            !navToggle.contains(event.target) &&
-            !navContact?.contains(event.target)
-        ) {
-            setNavOpen(false);
-        }
-    });
-
-    document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && document.body.classList.contains("nav-open")) {
-            setNavOpen(false, true);
-        }
-    });
-
     mobileNav.addEventListener("change", () => {
         setNavOpen(false);
     });
