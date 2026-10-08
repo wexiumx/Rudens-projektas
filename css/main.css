@@ -195,11 +195,10 @@ header nav a {
     letter-spacing: 0.01rem;
 }
 
-.nav-toggle {
+
+.header-navigation-bar .nav-toggle {
 	display: none;
 }
-
-
 
 
 
@@ -456,11 +455,8 @@ header nav a {
         margin: 0 auto;
     }
 
-    .header-navigation-bar nav {
-        display: none;
-    }
-
-    .nav-contact {
+    .header-navigation-bar nav,
+    .header-navigation-bar .nav-contact {
         display: none;
     }
 
@@ -469,12 +465,20 @@ header nav a {
         height: auto;
     }
 
-    .nav-toggle {
+    .header-navigation-bar .nav-toggle {
         display: block;
+        width: 1.25rem;
+        height: 1.0625rem;
+        min-width: 0;
         padding: 0;
         border: 0;
-        background: transparent;
+        border-radius: 0;
+        background-color: transparent;
         cursor: pointer;
+    }
+
+    .header-navigation-bar .nav-toggle:hover {
+        background-color: transparent;
     }
 
     .nav-toggle img {
@@ -483,6 +487,4 @@ header nav a {
         height: 1.0625rem;
     }
 
-
-    
 }
