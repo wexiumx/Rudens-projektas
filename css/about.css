@@ -416,7 +416,39 @@ height: 1.75rem;
 
 
 
+@media screen and (max-width: 1352px) {
+    .ready-footer {
+        position: relative; 
+        display: flex;
+        height: 12.5rem;
+        overflow: hidden;
+        background-color: var(--light-coral);
+    }
 
+    .ready-footer h2 {
+        font-size: 2rem;
+        margin-left: -0.2rem;
+    }
+
+    .ready-footer .ready-content {
+        display: flex;
+        justify-content: center;
+        gap: 5.25rem;
+    }
+
+    .ready-footer .ready-button {
+        width: 9.5625rem;
+        height: 3rem;
+        margin-left: -0.5rem;
+    }
+
+    .ready-footer .ready-left {
+        position: absolute;
+        bottom: -1.35rem; 
+        left: 0;
+    } 
+
+}
 
 
 
