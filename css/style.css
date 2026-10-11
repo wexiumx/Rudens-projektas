@@ -661,21 +661,24 @@
 		line-height: 1.75rem;
 	}
 
+	.talent-section h1 {
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+        margin-top: -2.54rem;
+	}
+
+	.talent-text {
+		width: 20.4375rem;
+	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.talent-section p {
+		margin-top: 0.9rem;
+        margin-left: 0.2rem;
+        letter-spacing: -0.01rem;
+		font-size: 0.9375rem;
+		line-height: 1.75rem;
+	}
 
 
 
@@ -685,60 +688,81 @@
 
 
     .mid-section {
-        position: relative;
-        width: 100%;
-        height: 67.0625rem;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        display: block;
-        overflow: hidden;
-        background-color: var(--sacramento-state-green);
+        height: auto;
+        min-height: 67.0625rem;
     }
 
-    .mid-decoration {
-        position: absolute;
-        top: 0;
-        right: -6.25rem;
-        bottom: auto;
-        left: auto;
-        width: 12.5rem;
-        height: 15.25rem;
-        margin: 0;
-        padding: 0;
-        display: block;
-        transform: none;
-        z-index: 0;
+    .mid-box {
+        box-sizing: border-box;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0 1.25rem;
+        margin: 4rem auto;
     }
 
     .mid-heading {
-        position: absolute;
-        top: 4rem;
-        left: 1.5rem;
-        width: 13rem;
-        height: auto;
-        padding: 2.25rem 0 0;
-        margin: 0;
-        box-sizing: border-box;
-        transform: none;
-        z-index: 1;
+        width: 13.125rem;
+        max-width: 100%;
+        margin-left: 0.25rem;
     }
 
-    .mid-heading::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 3.125rem;
-        height: 0.25rem;
-        background-color: var(--light-coral);
+    .mid-features {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 3.5rem;
     }
 
-    .mid-heading h2 {
+    .feature {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .feature-icon {
+        margin-right: 0;
+    }
+
+    .feature-text {
         width: 100%;
-        height: auto;
-        margin: 0;
-        color: var(--white);
+        max-width: 20.8125rem;
+        margin-top: 1rem;
+    }
+
+    .feature-text p {
+        margin-top: 0.5rem;
+    }
+
+
+    .feature-icon1 {
+        position: relative;
+        left: 0.4rem;
+        bottom: 0.5rem;
+    }
+
+
+    .feature-icon2,
+    .feature-icon3 {
+        position: relative;
+        bottom: 0.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .stories-header span {
+        display: block;
+        color: var(--rapture-blue);
         font-family: "Livvic-Bold", sans-serif;
         font-size: 2rem;
         font-style: normal;
@@ -747,6 +771,33 @@
         z-index: 1;
     }
 
+	.mid-features {
+		width: 100%;
+	}
+
+	.feature-text {
+		width: 29.5rem;
+	}
+
+	.mid-right {
+		align-self: flex-start;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     .stories-header span {
         display: block;
         color: var(--rapture-blue);
