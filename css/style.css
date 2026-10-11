@@ -506,6 +506,14 @@
 
 
 
+    
+
+
+
+
+
+
+
 
 	.mid-section {
 		height: 44.375rem;
@@ -542,6 +550,13 @@
 	.mid-right {
 		align-self: flex-start;
 	}
+
+
+
+
+
+
+
 
 
 
@@ -599,6 +614,14 @@
 
 
 
+
+
+
+
+
+
+
+
     .ready-footer {
         position: relative; 
         display: flex;
@@ -631,6 +654,26 @@
     } 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -679,6 +722,11 @@
 		font-size: 0.9375rem;
 		line-height: 1.75rem;
 	}
+
+
+
+
+
 
 
 
@@ -740,6 +788,12 @@
 
 
 
+
+
+
+
+
+
 	.stories-section {
 		height: auto;
 		min-height: 88.125rem;
@@ -771,6 +825,45 @@
 	}
 
 
+
+
+
+
+
+
+
+
+
+    .ready-footer {
+        height: auto;
+        min-height: 18.875rem;
+    }
+
+    .ready-footer .ready-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 5.1875rem auto;
+    }
+
+    .ready-footer h2 {
+        width: 15rem;
+        max-width: 100%;
+        margin: 0;
+        padding-left: 0;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .ready-footer .ready-button {
+        margin: 0;
+    }
+
+    .ready-footer .ready-left {
+        bottom: -1.4375rem;
+    }
+
 }
 
 
@@ -778,25 +871,25 @@
 
 
 @media screen and (max-width: 370px) {
-.talent-section {
-	height: auto;
-	min-height: 27.5rem;
-}
+    .talent-section {
+        height: auto;
+        min-height: 27.5rem;
+    }
 
-.talent-content {
-	box-sizing: border-box;
-	width: 100%;
-	padding: 0 1.5rem;
-	margin: 2.0625rem auto 0;
-}
+    .talent-content {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 1.5rem;
+        margin: 2.0625rem auto 0;
+    }
 
-.talent-text {
-	width: 100%;
-	max-width: 20.4375rem;
-}
+    .talent-text {
+        width: 100%;
+        max-width: 20.4375rem;
+    }
 
-.talent-deco-right {
-	max-width: 100%;
-	height: auto;
-}
+    .talent-deco-right {
+        max-width: 100%;
+        height: auto;
+    }
 }
