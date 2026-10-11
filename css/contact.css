@@ -330,41 +330,40 @@ header,
 
 	.header-navigation-bar.is-open nav {
 		position: fixed;
-		top: 5.75rem;
+		top: 6.5rem;
 		right: 0;
 		z-index: 12;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-		width: 68.5vw;
+		align-items: flex-start;
+		gap: 1.625rem;
+		width: 64vw;
 		margin: 0;
-		padding: 0;
+		padding: 0 0 0 2.6875rem;
 		box-sizing: border-box;
 	}
 
 	.header-navigation-bar.is-open nav a {
-		font-size: 0.9375rem;
+		font-size: 1.40625rem;
 	}
 
 	.header-navigation-bar.is-open .nav-contact {
 		position: fixed;
-		top: 11.3125rem;
-		left: 65.75vw;
+		top: 13.25rem;
+		right: calc(64vw - 13.4875rem);
 		z-index: 12;
 		display: flex;
-		width: 9.563rem;
+		width: 10.8rem;
 		min-width: 0;
-		height: 3rem;
+		height: 3.3rem;
 		padding: 0;
 		border: 0.125rem solid var(--white);
 		border-radius: 1.5rem;
 		background-color: transparent;
-		transform: translateX(-50%);
 	}
 
 	.header-navigation-bar.is-open .nav-contact a {
-		font-size: 0.9375rem;
+		font-size: 1.0625rem;
 	}
 
 	.header-navigation-bar.is-open::before {
@@ -379,7 +378,7 @@ header,
 		position: fixed;
 		z-index: 11;
 		inset: 0 0 0 auto;
-		width: 68.5vw;
+		width: 64vw;
 		background: var(--police-blue) url("../assets/icons/bg-pattern-about-1-mobile-nav-1.svg")
 			no-repeat right -7.5rem bottom -3rem / 12.5rem 12.5rem;
 		content: "";
