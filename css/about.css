@@ -476,6 +476,17 @@ height: 1.75rem;
 
 
 
+    .clients-section {
+        min-height: 0;
+        padding-bottom: 5.25rem;
+    }
+
+    .clients-section h2 {
+        font-size: 2rem;
+        margin-top: -3rem;
+        margin-bottom: 2.5rem;
+    }
+
     .client-icon {
         position: absolute;
         left: 0;
