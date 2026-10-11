@@ -318,9 +318,9 @@ header,
 
 	.header-navigation-bar {
 		position: static;
-		width: calc(100% - 2rem);
+		width: auto;
 		height: 2rem;
-		margin: 2.25rem auto 0;
+		margin: 2.25rem 1rem 0;
 	}
 
 	.header-navigation-bar .nav-logo {
@@ -350,7 +350,7 @@ header,
 	.header-navigation-bar.is-open .nav-contact {
 		position: fixed;
 		top: 11.3125rem;
-		right: calc((68.5vw - 9.563rem) / 2);
+		left: 65.75vw;
 		z-index: 12;
 		display: flex;
 		width: 9.563rem;
@@ -360,6 +360,7 @@ header,
 		border: 0.125rem solid var(--white);
 		border-radius: 1.5rem;
 		background-color: transparent;
+		transform: translateX(-50%);
 	}
 
 	.header-navigation-bar.is-open .nav-contact a {
