@@ -175,12 +175,6 @@ header button:hover {
     transition: color 0.2s ease-in-out;
 }
 
-header button:hover a {
-    color: black;
-    transition: color 0.2s ease-in-out;
-}
-
-
 .header-navigation-bar img {
     width: 10rem;
     height: 2.5rem;
@@ -200,6 +194,27 @@ header nav a {
 
 .header-navigation-bar .nav-toggle {
 	display: none;
+}
+
+.nav-contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 9.563rem;
+	height: 3rem;
+	padding-bottom: 0.15rem;
+	border: 2px solid white;
+	border-radius: 1.5rem;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.nav-contact:hover {
+	background-color: white;
+	color: black;
 }
 
 
@@ -549,6 +564,57 @@ header nav a {
         display: block;
         width: 1.25rem;
         height: 1.0625rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .site-footer {
+        min-height: 27rem;
+    }
+
+    .footer-content {
+        width: 100%;
+        row-gap: 0;
+        padding: 4.125rem 1.5rem 4.0625rem;
+    }
+
+    .footer-brand,
+    .footer-address-box,
+    .footer-socials,
+    .footer-copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-left .footer-logo {
+        margin: 0 auto;
+    }
+
+    .footer-nav {
+        justify-content: center;
+        margin-top: 1.4375rem;
+    }
+
+    .footer-address-box {
+        margin-top: 1.5rem;
+    }
+
+    .footer-socials {
+        justify-content: center;
+        margin-top: 2.5625rem;
+    }
+
+    .footer-copyright {
+        margin-top: 0.9375rem;
     }
 
 }
