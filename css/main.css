@@ -175,12 +175,6 @@ header button:hover {
     transition: color 0.2s ease-in-out;
 }
 
-header button:hover a {
-    color: black;
-    transition: color 0.2s ease-in-out;
-}
-
-
 .header-navigation-bar img {
     width: 10rem;
     height: 2.5rem;
@@ -200,6 +194,27 @@ header nav a {
 
 .header-navigation-bar .nav-toggle {
 	display: none;
+}
+
+.nav-contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 9.563rem;
+	height: 3rem;
+	padding-bottom: 0.15rem;
+	border: 2px solid white;
+	border-radius: 1.5rem;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.nav-contact:hover {
+	background-color: white;
+	color: black;
 }
 
 
