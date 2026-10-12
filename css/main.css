@@ -551,4 +551,55 @@ header nav a {
         height: 1.0625rem;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+    .site-footer {
+        min-height: 27rem;
+    }
+
+    .footer-content {
+        width: 100%;
+        row-gap: 0;
+        padding: 4.125rem 1.5rem 4.0625rem;
+    }
+
+    .footer-brand,
+    .footer-address-box,
+    .footer-socials,
+    .footer-copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-left .footer-logo {
+        margin: 0 auto;
+    }
+
+    .footer-nav {
+        justify-content: center;
+        margin-top: 1.4375rem;
+    }
+
+    .footer-address-box {
+        margin-top: 1.5rem;
+    }
+
+    .footer-socials {
+        justify-content: center;
+        margin-top: 2.5625rem;
+    }
+
+    .footer-copyright {
+        margin-top: 0.9375rem;
+    }
+
 }
