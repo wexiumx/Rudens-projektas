@@ -312,19 +312,22 @@
 }
 
 .client-logo2 {
-width: 11.5rem;
-height: 1.4375rem;
-margin-top: -0.688rem;
+    width: 11.5rem;
+    height: 1.4375rem;
+    margin-top: -0.688rem;
 }
+
 .client-logo3 {
-width: 11.25rem;
-height: 1.75rem;
-margin-right: -0.063rem;
+    width: 11.25rem;
+    height: 1.75rem;
+    margin-right: -0.063rem;
 }
+
 .client-logo4 {
-width: 10.3125rem;
-height: 1.75rem;
+    width: 10.3125rem;
+    height: 1.75rem;
 }
+
 .client-logo5 {
     max-width: 15%;
     max-height: 2.813rem;
@@ -590,6 +593,44 @@ height: 1.75rem;
 
 
 @media screen and (max-width: 767px) {
+    .about-text {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        padding: 0 1.5rem;
+        margin: 2rem 0;
+        text-align: center;
+        position: relative;
+    }
+
+    .about-text-about {
+        margin-top: 0rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .about-stick {
+        display: none;
+    }
+
+    .about-section {
+        margin-top: -4rem;
+        min-height: 24.5rem;
+    }
+
+    .about-text-paragraph {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-size : 0.9375rem;
+    }
+
+    .about-circle {
+        right: -6.25rem;
+        bottom: -6.25rem;
+        width: 12.5rem;
+    }
 
 
 
@@ -600,16 +641,14 @@ height: 1.75rem;
 
 
 
+    .directors-decoration-top {
+        position: absolute;
+        top: 0;
+        left: -6.25rem;
+        margin-top: -6.25rem;
+    }
 
-.directors-decoration-top
-{
-    position: absolute;
-    top: 0;
-    left: -6.25rem;
-    margin-top: -6.25rem;
-}
-
- .directors-section {
+    .directors-section {
         padding: 6.25rem 1.5rem 8rem;
     }
 
@@ -649,6 +688,69 @@ height: 1.75rem;
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .clients-section {
+        min-height: 39.5rem;
+        padding: 5.5rem 1.5rem;
+    }
+
+    .client-icon {
+        left: -6.25rem;
+        margin-top: -6.25rem;
+    }
+
+    .clients-section h2 {
+        margin: 0 0 4rem;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .client-logos {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    .client-logo {
+        margin: 0;
+    }
+
+    .client-logo1 {
+        width: 9.1875rem;
+        max-width: none;
+    }
+
+    .client-logo2 {
+        width: 10.1875rem;
+        height: auto;
+    }
+
+    .client-logo3 {
+        width: 10rem;
+        height: auto;
+    }
+
+    .client-logo4 {
+        width: 9.1875rem;
+        height: auto;
+    }
+
+    .client-logo5 {
+        width: 5.4375rem;
+        max-width: none;
+    }
 
 
 
