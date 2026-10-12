@@ -649,8 +649,75 @@ height: 1.75rem;
 
 
 
+/* 
+
+    .clients-section {
+        min-height: 0;
+        padding: 7.9rem 1.5rem;
+    }
+
+    .clients-section > h2 {
+        margin-bottom: 2.35rem;
+    }
+
+    .client-logos {
+        flex-direction: column;
+        gap: 3rem;
+    } */
 
 
+    .client-icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: -6.25rem;
+        margin-left: -6.25rem;
+    }
+
+
+.client-logos {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    max-width: 1110px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.client-logo {
+    display: block;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.client-logo1 {
+    max-width: 45%;
+    max-height: 2.813rem;
+    margin: -0.063rem;
+}
+
+.client-logo2 {
+width: 11.5rem;
+height: 1.4375rem;
+margin-top: -0.688rem;
+}
+.client-logo3 {
+width: 11.25rem;
+height: 1.75rem;
+margin-right: -0.063rem;
+}
+.client-logo4 {
+width: 10.3125rem;
+height: 1.75rem;
+}
+.client-logo5 {
+    max-width: 27%;
+    max-height: 2.813rem;
+}
 
 
 
