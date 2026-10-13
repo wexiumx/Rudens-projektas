@@ -13,16 +13,6 @@ if (navigationBar && navigationButton) {
 
     navigationButton.addEventListener("click", () => {
         const isOpening = !navigationBar.classList.contains("is-open");
-
-        if (isOpening) {
-            const buttonPosition = navigationButton.getBoundingClientRect();
-            navigationButton.style.left = `${buttonPosition.left}px`;
-            navigationButton.style.top = `${buttonPosition.top}px`;
-        } else {
-            navigationButton.style.removeProperty("left");
-            navigationButton.style.removeProperty("top");
-        }
-
         setNavigationOpen(isOpening);
     });
 
