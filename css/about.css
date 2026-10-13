@@ -655,14 +655,14 @@
         box-sizing: border-box;
         width: 100%;
         height: auto;
-        padding: 0 1.5rem;
+        padding: 0 1rem;
         margin: 2rem 0;
         text-align: center;
         position: relative;
     }
 
     .about-text-about {
-        margin-top: 0rem;
+        margin-bottom: 1rem;
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
@@ -672,15 +672,16 @@
     }
 
     .about-section {
-        margin-top: -4rem;
-        min-height: 24.5rem;
+        margin-top: -5.2rem;
+        min-height: 25.6rem;
     }
 
     .about-text-paragraph {
-        margin: 1rem 0 0;
+        margin: 0rem 0 0;
         font-size: 1.125rem;
         line-height: 1.75rem;
         font-size : 0.9375rem;
+        width: 111%;
     }
 
     .about-circle {
