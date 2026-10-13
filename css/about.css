@@ -446,6 +446,63 @@
 
 
 @media screen and (max-width: 1352px) {
+
+.about-section {
+    position: relative;
+    box-sizing: border-box;
+    height: 23.125rem;
+    min-height: 0;
+    padding: 2rem 1.5rem 0;
+    overflow: hidden;
+}
+
+.about-text {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.about-text-about {
+    font-size: 4rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.about-paragraph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+.about-stick {
+    display: none;
+}
+
+.about-text-paragraph {
+    width: 28.5625rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+}
+
+.about-circle {
+    position: absolute;
+    left: auto;
+    right: -6.25rem;
+    top: auto;
+    bottom: 0;
+    height: 12.5rem;
+}   
+
     .directors-section {
         padding: 6.25rem 1.5rem 8rem;
     }
@@ -715,14 +772,14 @@
         box-sizing: border-box;
         width: 100%;
         height: auto;
-        padding: 0 1.5rem;
+        padding: 0 1rem;
         margin: 2rem 0;
         text-align: center;
         position: relative;
     }
 
     .about-text-about {
-        margin-top: 0rem;
+        margin-bottom: 1rem;
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
@@ -732,15 +789,16 @@
     }
 
     .about-section {
-        margin-top: -4rem;
-        min-height: 24.5rem;
+        margin-top: -5.2rem;
+        min-height: 25.6rem;
     }
 
     .about-text-paragraph {
-        margin: 1rem 0 0;
+        margin: 0rem 0 0;
         font-size: 1.125rem;
         line-height: 1.75rem;
         font-size : 0.9375rem;
+        width: 111%;
     }
 
     .about-circle {
