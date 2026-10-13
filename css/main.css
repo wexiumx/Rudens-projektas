@@ -123,6 +123,7 @@ header {
 }
 
 .header-navigation-bar {
+    position: relative;
     width: 69.375rem;
     height: 3rem;
     background-color: var(--midnight-green);
@@ -198,10 +199,14 @@ header button:hover {
 }
 
 header nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15rem;
     display: flex;
     align-items: center;
-    gap: 2.5rem;                      
-    margin-left: 5rem;
+    gap: 2.5rem;
+    margin-left: 0;
 }
 
 header nav a {
@@ -461,10 +466,7 @@ header nav a {
     }
 
     header nav {
-        display: flex;
-        align-items: center;
-        gap: 2.5rem;                      
-        margin-left: 3rem;
+        left: 11rem;
     }
 
     header button {

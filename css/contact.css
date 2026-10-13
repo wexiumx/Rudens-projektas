@@ -368,6 +368,10 @@ header,
 
 	.header-navigation-bar.is-open nav {
 		position: relative;
+		top: auto;
+		right: auto;
+		bottom: auto;
+		left: auto;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
