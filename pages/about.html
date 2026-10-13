@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/about.css">
+    <script src="../js/about.js" defer></script>
 </head>
 <body>
     <header>
         <section class="header-navigation-bar">
             <aside>
                 <img class="nav-logo" src="../assets/icons/logo.svg" alt="logo">
-                <nav>
-                    <a href="../index.html">home</a>
-                    <a href="about.html">about</a>
-                </nav>
             </aside>
 
             <aside>
+                <nav id="about-navigation">
+                    <a href="../index.html">home</a>
+                    <a href="about.html">about</a>
+                </nav>
                 <a class="nav-contact" href="contact.html">contact us</a>
-                <button class="nav-toggle"><img src="../assets/icons/icon-hamburger.svg" alt="menu"></button>
+                <button class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="about-navigation" aria-expanded="false"><img src="../assets/icons/icon-hamburger.svg" alt=""></button>
             </aside>
         </section>
     </header>
