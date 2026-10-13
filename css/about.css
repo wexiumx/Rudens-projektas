@@ -399,11 +399,12 @@
 }
 
 .ready-button {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	box-sizing: border-box;
-	margin-right: -0.1rem;
+	position: relative;
+	z-index: 1;
 	width: 9.5625rem;
 	height: 3rem;
 	letter-spacing: -0.02rem;
@@ -417,6 +418,8 @@
 	line-height: 1.75rem;
 	text-decoration: none;
 	cursor: pointer;
+	white-space: nowrap;
+	flex-shrink: 0;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 

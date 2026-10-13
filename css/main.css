@@ -131,6 +131,19 @@ header {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    animation: navigation-slide-in 500ms ease-out both;
+}
+
+@keyframes navigation-slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 header button {
@@ -166,7 +179,11 @@ header a {
 
 header nav a:hover {
     color: var(--light-coral);
-    transition: color 0.2s ease-in-out;
+    transform: translateX(0.25rem);
+}
+
+header nav a {
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 header button:hover {
@@ -201,6 +218,8 @@ header nav a {
 	align-items: center;
 	justify-content: center;
 	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
 	width: 9.563rem;
 	height: 3rem;
 	padding-bottom: 0.15rem;
@@ -209,6 +228,8 @@ header nav a {
 	background-color: transparent;
 	color: white;
 	cursor: pointer;
+	white-space: nowrap;
+	flex-shrink: 0;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -539,6 +560,22 @@ header nav a {
         display: none;
     }
 
+    .header-navigation-bar.is-open > aside:last-child {
+        animation: navigation-panel-slide-in 350ms ease-out both;
+    }
+
+    @keyframes navigation-panel-slide-in {
+        from {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
     .nav-logo {
         width: 8rem;
         height: auto;
@@ -617,4 +654,14 @@ header nav a {
         margin-top: 0.9375rem;
     }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .header-navigation-bar,
+    .header-navigation-bar.is-open > aside:last-child,
+    header nav a,
+    .nav-contact {
+        animation: none;
+        transition: none;
+    }
 }
